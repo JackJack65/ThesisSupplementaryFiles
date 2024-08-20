@@ -1,0 +1,53 @@
+LOCUS       Eidolon_helvum_FKBP5        1365 bp    DNA     linear   UNA 20-AUG-2024
+DEFINITION  .
+ACCESSION   urn.local...4f-ee9d0y9
+VERSION     urn.local...4f-ee9d0y9
+KEYWORDS    .
+SOURCE      Eidolon helvum
+  ORGANISM  Eidolon helvum
+            .
+FEATURES             Location/Qualifiers
+     CDS             1..1365
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="FKBP5 Eidolon helvum"
+     misc_feature    1..1363
+                     /Original_Bases="CTCGAGGGTACCCCCGG"
+                     /label="CTCGAGGGTACCCCCGG"
+                     /note="Geneious type: Editing History Replacement"
+     terminator      <1..>1362
+                     /Imported_from="<a
+                     href=""http://wishart.biology.ualberta.ca/PlasMapper"">Pla
+                     sMapper</a>"
+                     /Transferred_From="rb_glob_PA term"
+                     /Transferred_Similarity="89.75%"
+                     /label="rb_glob_PA term"
+     misc_feature    1365
+                     /Original_Bases
+                     /label
+                     /note="Geneious type: Editing History Insertion"
+ORIGIN      
+        1 atgactactg atgaaggtgc caagaacaat ggaggaagcc cagcagcagc tgttgctgag
+       61 cagggagagg atattacctc taaaaaagat agaggagtat taaagattgt taaaagagtg
+      121 gggaatagtg aggaaacacc aatgattgga gacaaagttt atgtccatta cagtggaaaa
+      181 ttggcaaatg gaaagaagtt tgattccagt catgatcgaa atgaaccatt tgtctttaat
+      241 cttggcaaag gtcaagttat caaggcatgg gatattgggg tggctaccat gaagaaagga
+      301 gagatgtgcc atttactgtg caaaccagaa tatgcatacg gctcagctgg cagtatcccc
+      361 aaaattccct caaatgcaac tctctttttt gagattgagc tccttgattt caaaggagag
+      421 gatttatttg aagatggagg cattatccga agaatcaaac agaaaggaga aggatactca
+      481 aacccaaacg aaggagcaac agtagaaatc cacctggaag gccactgtgg tggaaagatg
+      541 tttgattgca gagatgtgat attcatcgtt ggcgaaggag aagaccacga cattccaatt
+      601 ggaatcgaca aagccctgga gaaaatgcat cgggaagaac aatgtatttt atatcttgga
+      661 ccacgatatg gttttggaga ggcagggaag cctaaatttg gcattgaacc taatgctgag
+      721 cttatgtatg aagttacact taagagcttc gaaaaggcca aagaatcctg ggagatggat
+      781 accaaagaaa aattggagca ggctgccatt gtcaaagaga agggaactgt gtactttaag
+      841 ggaggcaagt atttgcaggc ggtgattcaa tatgggaaga tagtatcatg gttagagatg
+      901 gaatacggct tatcagaaaa ggaatctaaa gcttcagaat catttctgct cgctgccttc
+      961 ctgaacctgg ccatgtgtta cctgaagctt agagagtaca ccaaagccgt cgagtgctgt
+     1021 gataaggccc ttggactgga cagtgccaat gagaagggtt tttacagaag gggtgaagcc
+     1081 cagctgctca tgaacgagtt tgagtcagcc aagggtgact ttgagaaagt gctggaagta
+     1141 aatccccaga ataaggccgc aagactgcag atctctgtgt gccagaaaag ggctaaggag
+     1201 cacaatgagc gggaccgcag aatatatgcc aacatgttca agaagtttgc agagcaggat
+     1261 gcaaaggaag aagccagtaa agcagtgggc aagaagactt tagaaggggt caccaataaa
+     1321 gaaggtcagg caacgaaaga ggagaaagtg gaaggcattg tatga
+//
