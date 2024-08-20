@@ -1,0 +1,566 @@
+LOCUS       Homo_sapiens_GR_reference_CDS        2334 bp    DNA     linear   UNA 30-JUL-2024
+DEFINITION  Homo sapiens nuclear receptor subfamily 3 group C member 1 (NR3C1),
+            transcript variant 1, mRNA.
+ACCESSION   urn.local...1v-i0w44kc
+VERSION     urn.local...1v-i0w44kc
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+FEATURES             Location/Qualifiers
+     gene            <1..>2334
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /note="nuclear receptor subfamily 3 group C member 1"
+                     /db_xref="GeneID:2908"
+                     /db_xref="HGNC:HGNC:7978"
+                     /db_xref="MIM:138040"
+                     /label="NR3C1 gene"
+     source          <1..>2334
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome=5
+                     /map="5q31.3"
+                     /label="source Homo sapiens"
+     exon            <1..1184
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /inference="alignment:Splign:2.0.8"
+                     /label="NR3C1 exon"
+     primer_bind     1..15
+                     /Mismatches=0
+                     /Extension="TTTAGCGATCGCC"
+                     /created_by="primer3"
+                     /annotation_group="85794004993900fbb901f5-c2ba-4ffb-8d45-a
+                     ba6b0dce45e"
+                     /%GC="40.0"
+                     /Tm="43.8"
+                     /Hairpin_Tm="37.0"
+                     /Self_Dimer_Tm="None"
+                     /Pair_Dimer_Tm="None"
+                     /Sequence="ATGGACTCCAAAGAA"
+                     /Product_Size=2331
+                     /label="human + mouse GR SgfI Kozak_NEW_f_70"
+     primer_bind     1..15
+                     /Mismatches=0
+                     /Extension="TTTAGCGATCGCC"
+                     /created_by="primer3"
+                     /annotation_group="103304390643600d1b57b00-2345-4026-a85a-
+                     d9a9b3cd469e"
+                     /%GC="40.0"
+                     /Tm="43.8"
+                     /Hairpin_Tm="37.0"
+                     /Self_Dimer_Tm="None"
+                     /Sequence="ATGGACTCCAAAGAA"
+                     /label="human + mouse GR SgfI f_70"
+     misc_feature    1..3
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /note="alternate translation initiation codon, use of
+                     which results in isoform alpha"
+                     /label="NR3C1 misc"
+     CDS             1..2334
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="CDS"
+     misc_feature    79..81
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /note="alternate translation initiation codon, use of
+                     which results in isoform alpha-B"
+                     /label="NR3C1 misc"
+     primer_bind     256..279
+                     /Mismatches=0
+                     /created_by="primer3"
+                     /annotation_group="448955254790600e43280af-f29e-4b53-ac8a-
+                     b1321369088d"
+                     /%GC="45.8"
+                     /Tm="60.1"
+                     /Hairpin_Tm="None"
+                     /Self_Dimer_Tm="None"
+                     /Pair_Dimer_Tm="None"
+                     /Sequence="ATGGGACTGTATATGGGAGAGACA"
+                     /Product_Size=342
+                     /label="human_GR 802_f"
+     misc_feature    268..270
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /note="alternate translation initiation codon, use of
+                     which results in isoform alpha-C2"
+                     /label="NR3C1 misc"
+     misc_feature    292..294
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /note="alternate translation initiation codon, use of
+                     which results in isoform alpha-C3"
+                     /label="NR3C1 misc"
+     XKST            344..433
+                     /created_by="User"
+                     /label="ssODN"
+     primer_bind     370..393
+                     /Mismatches=0
+                     /created_by="primer3"
+                     /annotation_group="448984731890700220ef761-25c7-4642-82c9-
+                     a6a63a41aae6"
+                     /%GC="41.7"
+                     /Tm="59.1"
+                     /Hairpin_Tm="49.5"
+                     /Self_Dimer_Tm="1.5"
+                     /Sequence="GAAAGCAUUGCAAACCUCAAUAGG"
+                     /label="human NRST f"
+     misc_feature    complement(386..407)
+                     /Mismatch_Positions="==============TT======"
+                     /Mismatches=2
+                     /created_by="primer3"
+                     /annotation_group="4490239128724008ccb4830-902a-4f98-bea1-
+                     6587adba2f03"
+                     /%GC="40.9"
+                     /Tm="56.4"
+                     /Hairpin_Tm="None"
+                     /Self_Dimer_Tm="None"
+                     /Sequence="GGAACACTGGTCGATTTATTGA"
+                     /label="human NKST r"
+                     /note="Geneious type: primer_bind_reverse"
+     mismatch        392
+                     /Target_base="C"
+                     /Oligo_base="T"
+                     /Oligo_name="human NKST r"
+                     /annotation_group="4490239128724008ccb4830-902a-4f98-bea1-
+                     6587adba2f03"
+                     /label="C/T"
+     mismatch        393
+                     /Target_base="C"
+                     /Oligo_base="T"
+                     /Oligo_name="human NKST r"
+                     /annotation_group="4490239128724008ccb4830-902a-4f98-bea1-
+                     6587adba2f03"
+                     /label="C/T"
+     misc_feature    complement(574..597)
+                     /Mismatches=0
+                     /created_by="primer3"
+                     /annotation_group="448955254790600e43280af-f29e-4b53-ac8a-
+                     b1321369088d"
+                     /%GC="37.5"
+                     /Tm="58.7"
+                     /Hairpin_Tm="None"
+                     /Self_Dimer_Tm="None"
+                     /Pair_Dimer_Tm="None"
+                     /Sequence="AAACTCCAAATCCTGCAAAATGTC"
+                     /Product_Size=342
+                     /label="human_GR 1143_r"
+                     /note="Geneious type: primer_bind_reverse"
+     misc_feature    946..948
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /note="alternate translation initiation codon, use of
+                     which results in isoform alpha-D1"
+                     /label="NR3C1 misc"
+     misc_feature    991..993
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /note="alternate translation initiation codon, use of
+                     which results in isoform alpha-D2"
+                     /label="NR3C1 misc"
+     misc_feature    1006..1008
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /note="alternate translation initiation codon, use of
+                     which results in isoform alpha-D3"
+                     /label="NR3C1 misc"
+     exon            1185..1351
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /inference="alignment:Splign:2.0.8"
+                     /label="NR3C1 exon"
+     exon            1352..1468
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /inference="alignment:Splign:2.0.8"
+                     /label="NR3C1 exon"
+     exon            1469..1747
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /inference="alignment:Splign:2.0.8"
+                     /label="NR3C1 exon"
+     exon            1748..1892
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /inference="alignment:Splign:2.0.8"
+                     /label="NR3C1 exon"
+     exon            1893..2023
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /inference="alignment:Splign:2.0.8"
+                     /label="NR3C1 exon"
+     exon            2024..2181
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /inference="alignment:Splign:2.0.8"
+                     /label="NR3C1 exon"
+     primer_bind     2097..2116
+                     /Mismatches=0
+                     /created_by="primer3"
+                     /annotation_group="143302641510361f075837-41ae-4118-9f2d-7
+                     aca8cfcc167"
+                     /%GC="50.0"
+                     /Tm="57.5"
+                     /Hairpin_Tm="None"
+                     /Self_Dimer_Tm="8.5"
+                     /Pair_Dimer_Tm="None"
+                     /Sequence="AGCCAUUGUCAAGAGGGAAG"
+                     /Product_Size=102
+                     /label="panGRa_neu_f"
+     DNA_probe_bind  complement(2124..2147)
+                     /Mismatches=0
+                     /created_by="primer3"
+                     /annotation_group="143302641510361f075837-41ae-4118-9f2d-7
+                     aca8cfcc167"
+                     /%GC="50.0 - 54.2"
+                     /Tm="63.6 - 65.9"
+                     /Hairpin_Tm="53.6"
+                     /Self_Dimer_Tm="32.9"
+                     /Pair_Dimer_Tm="None"
+                     /Sequence="TAAAACCGCTGCCAGTTCTGRCTG"
+                     /Degeneracy=2
+                     /label="panGRa_neu_p"
+     misc_feature    complement(2176..2198)
+                     /Mismatches=0
+                     /created_by="primer3"
+                     /annotation_group="143302641510361f075837-41ae-4118-9f2d-7
+                     aca8cfcc167"
+                     /%GC="39.1 - 43.5"
+                     /Tm="57.0 - 58.7"
+                     /Hairpin_Tm="None"
+                     /Self_Dimer_Tm="None"
+                     /Pair_Dimer_Tm="None"
+                     /Sequence="AGGAGAUUUUCAACCACHUCAUG"
+                     /Degeneracy=3
+                     /Product_Size=102
+                     /label="panGRa_neu_r"
+                     /note="Geneious type: primer_bind_reverse"
+     exon            2182..>2334
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /inference="alignment:Splign:2.0.8"
+                     /label="NR3C1 exon"
+     STS             2188..>2334
+                     /gene="NR3C1"
+                     /gene_synonym="GCCR; GCR; GCRST; GR; GRL"
+                     /standard_name="NR3C1_V270"
+                     /db_xref="UniSTS:277539"
+                     /label="NR3C1_V270"
+     misc_feature    complement(2307..2331)
+                     /Mismatches=0
+                     /Extension="GGACGTTTAAAC"
+                     /created_by="primer3"
+                     /annotation_group="85794004993900fbb901f5-c2ba-4ffb-8d45-a
+                     ba6b0dce45e"
+                     /%GC="28.0"
+                     /Tm="54.8"
+                     /Hairpin_Tm="47.4"
+                     /Self_Dimer_Tm="None"
+                     /Pair_Dimer_Tm="None"
+                     /Sequence="CTTTTGATGAAACAGAAGTTTTTTG"
+                     /Product_Size=2331
+                     /label="Bat GR PmeI NEW_r_70"
+                     /note="Geneious type: primer_bind_reverse"
+ORIGIN      
+        1 atggactcca aagaatcatt aactcctggt agagaagaaa accccagcag tgtgcttgct
+       61 caggagaggg gagatgtgat ggacttctat aaaaccctaa gaggaggagc tactgtgaag
+      121 gtttctgcgt cttcaccctc actggctgtc gcttctcaat cagactccaa gcagcgaaga
+      181 cttttggttg attttccaaa aggctcagta agcaatgcgc agcagccaga tctgtccaaa
+      241 gcagtttcac tctcaatggg actgtatatg ggagagacag aaacaaaagt gatgggaaat
+      301 gacctgggat tcccacagca gggccaaatc agcctttcct cgggggaaac agacttaaag
+      361 cttttggaag aaagcattgc aaacctcaat aggtcgacca gtgttccaga gaaccccaag
+      421 agttcagcat ccactgctgt gtctgctgcc cccacagaga aggagtttcc aaaaactcac
+      481 tctgatgtat cttcagaaca gcaacatttg aagggccaga ctggcaccaa cggtggcaat
+      541 gtgaaattgt ataccacaga ccaaagcacc tttgacattt tgcaggattt ggagttttct
+      601 tctgggtccc caggtaaaga gacgaatgag agtccttgga gatcagacct gttgatagat
+      661 gaaaactgtt tgctttctcc tctggcggga gaagacgatt cattcctttt ggaaggaaac
+      721 tcgaatgagg actgcaagcc tctcatttta ccggacacta aacccaaaat taaggataat
+      781 ggagatctgg ttttgtcaag ccccagtaat gtaacactgc cccaagtgaa aacagaaaaa
+      841 gaagatttca tcgaactctg cacccctggg gtaattaagc aagagaaact gggcacagtt
+      901 tactgtcagg caagctttcc tggagcaaat ataattggta ataaaatgtc tgccatttct
+      961 gttcatggtg tgagtacctc tggaggacag atgtaccact atgacatgaa tacagcatcc
+     1021 ctttctcaac agcaggatca gaagcctatt tttaatgtca ttccaccaat tcccgttggt
+     1081 tccgaaaatt ggaataggtg ccaaggatct ggagatgaca acttgacttc tctggggact
+     1141 ctgaacttcc ctggtcgaac agttttttct aatggctatt caagccccag catgagacca
+     1201 gatgtaagct ctcctccatc cagctcctca acagcaacaa caggaccacc tcccaaactc
+     1261 tgcctggtgt gctctgatga agcttcagga tgtcattatg gagtcttaac ttgtggaagc
+     1321 tgtaaagttt tcttcaaaag agcagtggaa ggacagcaca attacctatg tgctggaagg
+     1381 aatgattgca tcatcgataa aattcgaaga aaaaactgcc cagcatgccg ctatcgaaaa
+     1441 tgtcttcagg ctggaatgaa cctggaagct cgaaaaacaa agaaaaaaat aaaaggaatt
+     1501 cagcaggcca ctacaggagt ctcacaagaa acctctgaaa atcctggtaa caaaacaata
+     1561 gttcctgcaa cgttaccaca actcacccct accctggtgt cactgttgga ggttattgaa
+     1621 cctgaagtgt tatatgcagg atatgatagc tctgttccag actcaacttg gaggatcatg
+     1681 actacgctca acatgttagg agggcggcaa gtgattgcag cagtgaaatg ggcaaaggca
+     1741 ataccaggtt tcaggaactt acacctggat gaccaaatga ccctactgca gtactcctgg
+     1801 atgtttctta tggcatttgc tctggggtgg agatcatata gacaatcaag tgcaaacctg
+     1861 ctgtgttttg ctcctgatct gattattaat gagcagagaa tgactctacc ctgcatgtac
+     1921 gaccaatgta aacacatgct gtatgtttcc tctgagttac acaggcttca ggtatcttat
+     1981 gaagagtatc tctgtatgaa aaccttactg cttctctctt cagttcctaa ggacggtctg
+     2041 aagagccaag agctatttga tgaaattaga atgacctaca tcaaagagct aggaaaagcc
+     2101 attgtcaaga gggaaggaaa ctccagccag aactggcagc ggttttatca actgacaaaa
+     2161 ctcttggatt ctatgcatga agtggttgaa aatctcctta actattgctt ccaaacattt
+     2221 ttggataaga ccatgagtat tgaattcccc gagatgttag ctgaaatcat caccaatcag
+     2281 ataccaaaat attcaaatgg aaatatcaaa aaacttctgt ttcatcaaaa gtga
+//
+LOCUS       Megabat_consensus_GR_reference_CDS        2331 bp    DNA     linear   UNA 30-JUL-2024
+DEFINITION  this is the consensus that Jan created for Eid. helvum Ni 41.3 cell
+            line.
+ACCESSION   urn.local...a5-b1ng1aq
+VERSION     urn.local...a5-b1ng1aq
+KEYWORDS    .
+SOURCE      Eidolon helvum
+  ORGANISM  Eidolon helvum
+            .
+FEATURES             Location/Qualifiers
+     CDS             1..2331
+                     /created_by="User"
+                     /label="CDS"
+     misc_feature    complement(160..178)
+                     /Sequence="GCTGCTTAGAGTCTGTCTG"
+                     /Hairpin_Tm="36.6"
+                     /Tm="55.1"
+                     /Self_Dimer_Tm="None"
+                     /%GC="52.6"
+                     /modified_by="User"
+                     /label="Megabat GR 5' R"
+                     /note="Geneious type: primer_bind_reverse"
+     primer_bind     223..242
+                     /created_by="primer3"
+                     /%GC="55.0"
+                     /Tm="60.0"
+                     /Hairpin_Tm="36.5"
+                     /Self_Dimer_Tm="15.9"
+                     /Pair_Dimer_Tm="0.6"
+                     /Sequence="CAGCAGCCAGATCTGTCCAA"
+                     /Product_Size=326
+                     /annotation_group="45091182023766806ab4eda-03d5-4722-b6ea-
+                     8a58f4d4bb89Megabat GR consensus"
+                     /label="223 F"
+     misc_feature    344..395
+                     /created_by="User"
+                     /label="CRISPR NXST homology arm"
+     misc_feature    397..446
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="CRISPR NXST homology arm"
+     misc_feature    complement(529..548)
+                     /created_by="primer3"
+                     /%GC="50.0"
+                     /Tm="60.3"
+                     /Hairpin_Tm="None"
+                     /Self_Dimer_Tm="None"
+                     /Pair_Dimer_Tm="0.6"
+                     /Sequence="AGCTTCACATTGCCTCCGTT"
+                     /Product_Size=326
+                     /annotation_group="45091182023766806ab4eda-03d5-4722-b6ea-
+                     8a58f4d4bb89Megabat GR consensus"
+                     /label="548 R"
+                     /note="Geneious type: primer_bind_reverse"
+     primer_bind     740..758
+                     /Sequence="CTCCTGTTTTACCGGACAC"
+                     /Hairpin_Tm="None"
+                     /Tm="55.6"
+                     /Self_Dimer_Tm="None"
+                     /%GC="52.6"
+                     /created_by="primer3"
+                     /label="Megabat GR f"
+     misc_feature    complement(1451..1470)
+                     /Sequence="TCGAGCTTCCAGGTTCATTC"
+                     /Hairpin_Tm="None"
+                     /Tm="57.6"
+                     /Self_Dimer_Tm="None"
+                     /%GC="50.0"
+                     /created_by="primer3"
+                     /modified_by="User"
+                     /label="Megabat GR r"
+                     /note="Geneious type: primer_bind_reverse"
+     primer_bind     2161..2179
+                     /Sequence="TTGGACTCCATGCATGAGG"
+                     /Hairpin_Tm="31.5"
+                     /Tm="57.1"
+                     /Self_Dimer_Tm="24.5"
+                     /%GC="52.6"
+                     /created_by="primer3"
+                     /modified_by="User"
+                     /label="Megabat GR 3' F"
+ORIGIN      
+        1 atggacccca aggaatcatt aagcccaccc agtagagaag aaatccccag cagtgtgctt
+       61 ggtagggaga ggggaaatgt gatggacttc tataaaaccc taaggggagg agctactgtg
+      121 aaggtttctg catcttcatc ctcactggct gctgcttctc agacagactc taagcagcag
+      181 cgacttttgg ttgattttcc aaaaggctca ggaagcaatg cgcagcagcc agatctgtcc
+      241 aaggcagttt cactctcaat gggactgtat atgggagaga cagaaacaaa agtaatggga
+      301 aatgacctgg gattcccaca gcagggccaa atcagccttt cctctgggga aactgacttt
+      361 cggcttctgg aagaaagtat cgcaaacctc aataagtcga ccagtgttcc agagaactcc
+      421 aggagttcag catcaactgc tgtttctgct gcccccacag aggagtttcc aaaaacacac
+      481 tccgatgtgt cttcagaaca gcagaatttg aagagccaga ctggcaccaa cggaggcaat
+      541 gtgaagctgt ataacacaga ccaaagaacc tttgacattt tgcaggattt ggagttttct
+      601 tctgggtccc caggaaaaga gacaaatgag agttcttgga gatcagacct cttgatagat
+      661 gaaaattgtt tgccttctcc tttcacagga gaggacgatc cattcctttt ggaaggaaac
+      721 ttgaatgagg actataagcc tcctgtttta ccggacacta aacctaaaat taaggatgat
+      781 ggagatctga tcttaccaag ccccagcagt gtaacactgc cccaagtgaa aacagaaaaa
+      841 gaagatttca ttgaactctg cacccctgga gtaattaagc aagagaaact gggcccagtt
+      901 tactgtcagg caaacttttc tggggcaaat ataattggta ataaaatatc tgccatttct
+      961 gttcacggcg tgagtacctc tgggggacag atgtaccact atgacatgaa tacagcatcc
+     1021 ctttctcagc agcaggatca gaagcctgtt tttaatgtca ttccaccaat ccctgctggt
+     1081 tcagaaaatt ggaataggtg ccaaggatct gtagatgaca acttgacttc cctggggact
+     1141 ttgaacttcc ctggtcgatc tgtcttttct aatggctatt caagccccgg aatgagacca
+     1201 gatgtaagct ctcctccatc cagctcctca gcagcagcgg gaccacctcc caaactttgc
+     1261 cttgtgtgct ctgatgaagc ttcaggatgt cattatgggg tcttgacttg tggaagctgt
+     1321 aaagtcttct tcaaaagagc agtggaagga cagcacaatt atctttgtgc tggaagaaat
+     1381 gattgtatca ttgacaaaat tagaagaaaa aactgcccag catgccgtta tcgaaaatgt
+     1441 cttcaagctg gaatgaacct ggaagctcga aaaacaaaga aaaagataaa aggaatccag
+     1501 caggccacta caggagtctc acaagaaacc tctgaaaatc tcgccaacaa aacaatagtt
+     1561 cctgcaacat tgccacaact cacccccacc ctcgtgtcac tgttggaggt catcgaacct
+     1621 gaggtgttat atgcaggcta tgacagctct actccagata cgacatggcg gatcatgagc
+     1681 acgcttaaca tgttaggtgg gcggcaagtg attgcagcag tgaaatgggc caaggcgata
+     1741 ccaggattca ggaacttaca cctagatgac caaatgatcc tactgcaata ttcatggatg
+     1801 ttcctcatgg catttgccct gggatggaga tcatatagac agtcaagtgc aaacctgctg
+     1861 tgttttgctc ctgacttgat tattgatgag gagaggatgc gtctaccctg catgtatgaa
+     1921 caatgcaaac acatgctgtt tgtttcctct gagttaaaca ggcttcaggt atcttacgaa
+     1981 gagtatctct gtatgaaaac cttactgctt ctctcttcag ttcctaagga aggtttgaag
+     2041 agccaagaac tatttgatga aatcagaatg acctacatca aagagctagg gaaagccatt
+     2101 gtcaagaggg aaggaaactc cagtcagaac tggcagcggt tttatcagct gactaaactc
+     2161 ttggactcca tgcatgaggt ggttgaaaat ctccttcact attgcttcca aacatttttg
+     2221 gataagtcta tgagtattga attcccagag atgttagctg aaatcatcac caatcagtta
+     2281 ccaaaatatt caagtggaaa tatcaaaaaa cttctgtttc atcaaaagtg a
+//
+LOCUS       Mus_musculus_GR_reference_CDS        2379 bp    DNA     linear   UNA 30-JUL-2024
+DEFINITION  .
+ACCESSION   urn.local...1o-i0w40dg
+VERSION     urn.local...1o-i0w40dg
+KEYWORDS    .
+SOURCE      Mus musculus
+  ORGANISM  Mus musculus
+            .
+FEATURES             Location/Qualifiers
+     gene            order(<1..>1235,<1236..>1399,<1400..>1516,<1517..>1792,
+                     <1793..>1937,<1938..>2068,<2069..>2226,<2227..>2379)
+                     /label="Nr3c1"
+     exon            <1..1235
+                     /label="Nr3c1-001 Exon 2"
+     CDS             1..2379
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="CDS"
+     primer_bind     296..315
+                     /Sequence="CCGTTTCACTGTCCATGGGA"
+                     /Hairpin_Tm="None"
+                     /Tm="60.0"
+                     /Self_Dimer_Tm="13.0"
+                     /%GC="55.0"
+                     /Pair_Dimer_Tm="15.5"
+                     /Product_Size=366
+                     /annotation_group="946122942426804be261f15-bce9-4c8a-94ab-
+                     b2577ff02309"
+                     /modified_by="User"
+                     /label="4,365 F"
+     primer_bind     296..315
+                     /Sequence="CCGTTTCACTGTCCATGGGA"
+                     /annotation_group="946243220405435dc04b1d0-052b-4ccf-ad37-
+                     503dc5eb37b1"
+                     /modified_by="User"
+                     /Hairpin_Tm="None"
+                     /Tm="60.0"
+                     /Self_Dimer_Tm="13.0"
+                     /%GC="55.0"
+                     /Pair_Dimer_Tm="None"
+                     /Product_Size=165
+                     /label="4,365 F"
+     primer_bind     424..447
+                     /Sequence="GAAAGCATTGCAAACCTCAATAGG"
+                     /Hairpin_Tm="49.5"
+                     /Tm="59.1"
+                     /Self_Dimer_Tm="1.5"
+                     /%GC="41.7"
+                     /created_by="primer3"
+                     /label="NRST_F_in_use"
+     misc_feature    complement(441..460)
+                     /label="crRNA1"
+     misc_feature    complement(441..460)
+                     /Sequence="GACGGCTGGTCGACCTATTG"
+                     /Hairpin_Tm="35.6"
+                     /Tm="60.5"
+                     /Self_Dimer_Tm="14.7"
+                     /%GC="60.0"
+                     /Pair_Dimer_Tm="None"
+                     /Product_Size=165
+                     /annotation_group="946243220405435dc04b1d0-052b-4ccf-ad37-
+                     503dc5eb37b1"
+                     /modified_by="User"
+                     /label="mouse_NRST_R"
+                     /note="Geneious type: primer_bind_reverse"
+     misc_feature    complement(642..661)
+                     /Sequence="ACCCGGCAGAAAACTCCAAA"
+                     /annotation_group="946122942426804be261f15-bce9-4c8a-94ab-
+                     b2577ff02309"
+                     /modified_by="User"
+                     /Hairpin_Tm="None"
+                     /Tm="60.1"
+                     /Self_Dimer_Tm="None"
+                     /%GC="50.0"
+                     /Pair_Dimer_Tm="15.5"
+                     /Product_Size=366
+                     /label="4,730 R"
+                     /note="Geneious type: primer_bind_reverse"
+     exon            1236..1399
+                     /label="Nr3c1-001 Exon 3"
+     exon            1400..1516
+                     /label="Nr3c1-001 Exon 4"
+     exon            1517..1792
+                     /label="Nr3c1-001 Exon 5"
+     exon            1793..1937
+                     /label="Nr3c1-001 Exon 6"
+     exon            1938..2068
+                     /label="Nr3c1-001 Exon 7"
+     exon            2069..2226
+                     /label="Nr3c1-001 Exon 8"
+     exon            2227..>2379
+                     /label="Nr3c1-001 Exon 9"
+ORIGIN      
+        1 atggactcca aagaatcctt agctccccct ggtagagacg aagtccccag cagtttgctt
+       61 ggccggggga ggggaagcgt gatggacttg tataaaaccc tgaggggtgg agctacagtc
+      121 aaggtttctg cgtcttcacc ctcagtggct gctgcttctc aggcagattc caagcagcag
+      181 aggattctcc ttgatttttc aaaaggctca gcaagcaatg cgcagcagca gcagcagcag
+      241 cagcagcagc agcagcagca gcagcagcag cagccgcagc cagatttatc caaagccgtt
+      301 tcactgtcca tgggactgta tatgggagag accgaaacaa aagtgatggg gaatgacttg
+      361 ggctacccac agcagggcca gcttggcctc tcctctgggg aaacagactt tcggcttctg
+      421 gaagaaagca ttgcaaacct caataggtcg accagccgtc cagagaaccc caagagttca
+      481 acacctgcag ctgggtgtgc taccccgaca gagaaggagt ttccccagac tcactctgat
+      541 ccatcttcag aacagcaaaa tagaaaaagc cagcctggca ccaacggtgg cagtgtgaaa
+      601 ttgtatacca cagaccaaag cacctttgac atcttgcagg atttggagtt ttctgccggg
+      661 tccccaggta aagagacaaa cgagagtcct tggaggtcag acctgttgat agatgaaaac
+      721 ttgctttctc ctttggcggg agaagatgat ccattccttc tggaagggga cgtgaatgag
+      781 gattgcaagc ctcttatttt accggacact aaacctaaaa ttcaggatac tggagataca
+      841 atcttatcaa gccccagcag tgtggcactg ccccaagtga aaacagagaa agatgatttc
+      901 attgagcttt gcacccctgg ggtaattaag caagagaaac tgggcccggt ttattgccag
+      961 gcaagctttt ctgggacaaa tataattggg aataaaatgt ctgccatttc tgttcatggc
+     1021 gtgagtacct ctggaggaca gatgtaccac tatgacatga atacagcatc cctttctcag
+     1081 cagcaggatc agaagcctgt ttttaatgtc attccaccaa ttcctgttgg ttctgaaaac
+     1141 tggaataggt gccaagggtc tggagaggac aacctgactt ccttgggggc tatgaacttc
+     1201 gcaggccgct cagtgttttc taatggatat tcaagccctg gaatgagacc agatgtgagt
+     1261 tctcctccgt ccagctcctc cacagcaacg ggaccacctc ccaaactctg cctggtgtgc
+     1321 tccgatgaag cttcgggatg ccattatggg gtgctgacgt gtggaagctg taaagtcttc
+     1381 tttaaaagag cagtggaagg acagcacaat tacctttgtg ctggaagaaa tgattgcatc
+     1441 attgataaaa ttcgaagaaa aaactgtcca gcatgccgct atcgaaaatg tcttcaagct
+     1501 ggaatgaacc tggaagctcg aaaaacgaag aaaaaaatta aaggaattca gcaagccact
+     1561 gcaggagtct cacaagacac ttctgaaaac gctaacaaaa caatagttcc tgccgcgctg
+     1621 ccacagctta cccctaccct ggtgtcactg ctggaggtga tcgagcctga ggtgttatat
+     1681 gcaggatatg acagctctgt tccagactca gcatggagaa ttatgaccac gctcaacatg
+     1741 ttaggtgggc gccaagtgat tgccgcagtg aaatgggcaa aggcgatacc aggattcaga
+     1801 aacttacacc tggatgacca aatgaccctt ctacagtact catggatgtt tctcatggca
+     1861 tttgccctgg gttggagatc atacagacaa gcaagtggaa acctgctatg ctttgctcct
+     1921 gatctgatta ttaatgagca gagaatgact ctaccctgca tgtatgacca atgtaaacac
+     1981 atgctgttta tctccactga attacaaaga ttgcaggtat cctatgaaga gtatctctgt
+     2041 atgaaaacct tactgcttct ctcctcagtt cctaaggaag gtctgaagag ccaagagtta
+     2101 tttgatgaga ttcgaatgac ttatatcaaa gagctaggaa aagccattgt caaaagggaa
+     2161 ggaaactcca gtcagaattg gcagcggttt tatcaactga caaaactttt ggactccatg
+     2221 catgatgtgg ttgaaaatct ccttagctac tgcttccaaa catttttgga taagtccatg
+     2281 agtattgaat tcccagagat gttagctgaa atcatcacta atcagatacc aaaatactca
+     2341 aatggaaata tcaaaaagct tctgtttcat cagaaatga
+//
