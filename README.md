@@ -46,6 +46,9 @@ Berlin_PR8_seg7.phy
 Berlin_PR8_seg8.phy
 
 CDS sequences for DDX3X, FKBP51, and NLRP3 obtained from Eidolon helvum mRNA:
+
 DDX3X_Eidolon_helvum.gb
+
 FKBP5_Eidolon_helvum.gb
+
 NLRP3_Eidolon_helvum.gb
