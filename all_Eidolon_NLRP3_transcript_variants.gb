@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      AGGATTTGCCTTTTAGTGGTGACTGGCTTACTTCACTCAGTATCATGTTCTTGAGCTT
                      CATCCATGCTGATGCATATGACAGCACTTTATTACCTTTTAGGCATGATG"
                      /note="Geneious type: Editing History Deletion"
-     exon            413..2167
+     exon            413..2168
                      /created_by="Jackson"
                      /modified_by="Jackson"
                      /label="exon 3"
@@ -148,7 +148,7 @@ FEATURES             Location/Qualifiers
                      /created_by="Jackson"
                      /modified_by="Jackson"
                      /label="exon 2"
-     exon            629..2383
+     exon            629..2384
                      /created_by="Jackson"
                      /modified_by="Jackson"
                      /label="exon 3"
