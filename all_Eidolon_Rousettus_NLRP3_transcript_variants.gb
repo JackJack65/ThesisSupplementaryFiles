@@ -1,0 +1,991 @@
+LOCUS       Eidolon_NLRP3           3018 bp    DNA     linear   UNA 08-APR-2025
+DEFINITION  "canonical" E. helvum mRNA transcript, occurs in Eidolon BMDMs.
+ACCESSION   urn.local...230-iyw9jwh
+VERSION     urn.local...230-iyw9jwh
+KEYWORDS    .
+SOURCE      Eidolon helvum
+  ORGANISM  Eidolon helvum.
+FEATURES             Location/Qualifiers
+     CDS             1..3018
+                     /created_by="User"
+                     /label="expected NLRP3 CDS"
+     site            join(1..307,308..412,413..2168,2169..>2342,2343..>2513,
+                     2514..>2684,2685..2858,2859..3018)
+                     /created_by="User"
+                     /modified_by="Jackson"
+                     /label
+     exon            1..307
+                     /created_by="Jackson"
+                     /label="exon 1"
+     misc_feature    307^308
+                     /Original_Bases="AACTCCGCCCCATTAAGCAGCACCCCCACTCCTCAGCCCCT
+                     GGCGACCACCACTTTCTCTCTCCATGAATTTGACCACTCTTGGGACCTCTCATAAGTG
+                     GAATCTTACAGGATTTGCCTTTTAGTGGTGACTGGCTTACTTCACTCAGTATCATGTT
+                     CTTGAGCTTCATCCATGCTGATGCATATGACAGCACTTTATTACCTTTTAGGCATGAT
+                     G"
+                     /label="AACTCCGCCCCATTAAGCAGCACCCCCACTCCTCAGCCCCTGGCGACCAC
+                     CACTTTCTCTCTCCATGAATTTGACCACTCTTGGGACCTCTCATAAGTGGAATCTTAC
+                     AGGATTTGCCTTTTAGTGGTGACTGGCTTACTTCACTCAGTATCATGTTCTTGAGCTT
+                     CATCCATGCTGATGCATATGACAGCACTTTATTACCTTTTAGGCATGATG"
+                     /note="Geneious type: Editing History Deletion"
+     exon            308..412
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 2"
+     exon            413..2168
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 3"
+     source          <771..>1255
+                     /organism="Eidolon helvum"
+                     /mol_type="genomic DNA"
+                     /submitter_seqid="EH_scaffold_123119"
+                     /db_xref="taxon:77214"
+                     /chromosome="Unknown"
+                     /country="Ghana: Accra"
+     exon            2169..2342
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 4"
+     exon            2343..2513
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 5"
+     exon            2514..2684
+                     /created_by="Jackson"
+                     /label="exon 6"
+     exon            2685..2858
+                     /created_by="Jackson"
+                     /label="exon 8"
+     exon            2859..3018
+                     /created_by="Jackson"
+                     /label="exon 9"
+ORIGIN      
+        1 atgtcccctt cccggccagg gctagtgatc atggccagtg tccgctgcaa gctggctcgc
+       61 tacctagagg acctggagga tgtggacctg aagaaattca agatgcactt ggaggactat
+      121 ccgcctcaga agggctgtac tgcacttccc cggggccaga cggagaaggc agacccagtg
+      181 gatctggcca ccctgatgat tgacttcaac ggggaggaga aggcctgggc catggctgtg
+      241 tgggcatttg ctgccatcaa ccgtagagac ctgtatgaga gggccaagag ggaagagccg
+      301 gagtgggata acacatatgt ttctgtggta tgccgggcag aaagccttga agaggagtgg
+      361 atgggtttgt tggggtacct ttccagaatc tctatttgta aaaagaagaa agattactgt
+      421 aagaaatacc gaaagcacgt gagaagcagg ttccagtgta tcgaagacaa gaatgcccgt
+      481 ctgggtgaga gcgtgaacct caataagcgc tacaccaggc tgcgtctcat caaggagcac
+      541 cagagccagc aagagcgaga gcatgagctt ctggccattg gtgagaccct ggctgtgacg
+      601 cgagacagcc ctgtgagctc catgagcttg gagctgctgt tcgagcccga ggaccgacat
+      661 gccgagcctg tgcacacggt ggtgctccag ggctcggcgg gcattgggaa gacgatcctg
+      721 gccaggaaga tcatgctgga ctgggcatcg gagaagctct accaggacag gtttgactac
+      781 ttgttttaca ttcactgccg ggaggtaagc ctggggacac ggaggagcct gggagacctg
+      841 atagccagct gctgccctga ccccaaccca cccatcagca agattgtgaa aaagccaggc
+      901 aggatcctat tcctcatgga tggcttcgac gagttgcagg gtgccttcga tgagcacatg
+      961 gaggcactct gcaccgactg gaggaaggtg gagaggggag acgtcctgct gagcagtctc
+     1021 atcaggaaga agttgctccc cgaggcctcc ctcctcatca ccacgaggcc tgtggcactg
+     1081 gagaagctgc agcacctgct ggaccatccg cggcatgttg aggtcctggg tttctcagaa
+     1141 gccaagaaaa aagagtactt cttcaagtat ttctcagatg agcagcaagc cagggaggct
+     1201 ttcaggttga cgcaagagaa tgaggttttg ttcaccatgt gcttcatccc cctagtctgc
+     1261 tggatcgtgt gtactgggct gaagcagcag atggacagtg gcaagggcct tcctcagacg
+     1321 tccaagacca ccactgctgt gtacaccttc ttcctctcca ctttgctgca gtcgcgggga
+     1381 ggctgcccga agcgccccat ctctgccaac ctgcggggcc tctgttcact ggctgcagat
+     1441 gggatctgga accagaagat cctgtttgag gagggggacc tcaggagcca cggcctgcag
+     1501 aaggcagatg catccgcatt cctgagggtg aacctgttcc agaaggaggt ggactgcgag
+     1561 aagttctaca gcttcatcca catgaccttc caggagttct ttgctgccat gtactacctg
+     1621 ctggaggagg agcagcatgg ggtgggggac gagtcaaggg ggcctttgga gcctcctgac
+     1681 cgggacgtga cagtccttct cgaaaactat ggcaaatttg aaaaaggcta cttgattttt
+     1741 gtcgtccgct tcctctttgg ccttataaac caggagagga catcctactt ggagaaaaaa
+     1801 ttgagttgta agatctccca gcaaatccgg ctggagctgc tgaagtggat tgaggccaaa
+     1861 gccaaggcga ggaccccaca ggcccagccc acgcagctgg agctgttcta ctgcctgtat
+     1921 gagatgcagg aggagggctt tgtgcgcagg gccatgggcc acttccccag ggttgaggtc
+     1981 agcatctcca ccaggatgga ccacgtggtc tcttccttct gcatagggaa ctgtcacaac
+     2041 atggagtcgc tgtccctgaa gctgctccat gactcaccca aggaggagga ggaggatgag
+     2101 ggggatgggg gctgccctag tgtgggccag tgcatcctcc cagaccctcc ctcagcctct
+     2161 tcttatagat caatgaactg ctgctacctt cctcccagct tctgtcaggg tctcctgtct
+     2221 gtcctgagca ccaatcagag cctcactgag ctaaacctca gtgacaacac tctgggggat
+     2281 gcagggatga aggtgttatg tgagatgctc cagaatcctg gctgtaggat tcagagactg
+     2341 cggttgagac gctgttgcct ttcccatcgg tgctgcttcg atatctcctc cgtcctcagc
+     2401 agcaaccaga cactggtgga actggacctg agcaacaatg gcctggccga ctgtggggtc
+     2461 agacttctgt gtgtggggct gaggcacatc ttttgcaact tgaggaagct ctggttggtc
+     2521 aactgctgcc tcacatctgc gtgctgtgcg caccttgcat cggtcctgag cactagccag
+     2581 tccttgacca ggctctactt gggggaaaac gccctgggag acttgggagt gggaatcctg
+     2641 tgtgaaccag caaagcatcc acaatgcagc ctgcagaaac tgggactaga caactgcagt
+     2701 ctcacctcac actgctgctg ggacctgtcc aggcttctga cttccagtca gagcctgcag
+     2761 caactgagcc tggacagcaa tgacctgggt gacctggggg tcatgctctt ttgcgaagtg
+     2821 ctgaagcagc agggctgcct ccttagaagc ctgaagttgt gtaaaatgta ttttaattat
+     2881 gatacaatct gcgcattaga agctcttcaa gaagaaaagc cagagctgac catcgttttt
+     2941 gagcgtgccc agccagtgat ggaagcccgg caccagaccc ccctgctgtg tggccccacc
+     3001 acccggtgta gatgctga
+//
+LOCUS       Eidolon_NLRP3_exon7        3189 bp    DNA     linear   UNA 09-MAY-2025
+DEFINITION  "canonical" E. helvum mRNA transcript, occurs in Eidolon BMDMs.
+ACCESSION   urn.local...230-iyw9jwh
+VERSION     urn.local...230-iyw9jwh
+KEYWORDS    .
+SOURCE      Eidolon helvum
+  ORGANISM  Eidolon helvum.
+FEATURES             Location/Qualifiers
+     CDS             1..3189
+                     /created_by="User"
+                     /label="expected NLRP3 CDS"
+     site            join(1..307,308..412,413..2168,2169..2342,2343..2513,
+                     2514..2684,2685..2855,2856..3029,3030..3189)
+                     /created_by="User"
+                     /modified_by="Jackson"
+                     /modified_by="Jackson"
+                     /label
+     exon            1..307
+                     /created_by="Jackson"
+                     /label="exon 1"
+     exon            308..412
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 2"
+     exon            413..2168
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 3"
+     exon            2169..2342
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 4"
+     exon            2343..2513
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 5"
+     exon            2514..2684
+                     /created_by="Jackson"
+                     /label="exon 6"
+     exon            2685..2855
+                     /created_by="Jackson"
+                     /label="exon 7"
+     exon            2856..3029
+                     /created_by="Jackson"
+                     /label="exon 8"
+     exon            3030..3189
+                     /created_by="Jackson"
+                     /label="exon 9"
+ORIGIN      
+        1 atgtcccctt cccggccagg gctagtgatc atggccagtg tccgctgcaa gctggctcgc
+       61 tacctagagg acctggagga tgtggacctg aagaaattca agatgcactt ggaggactat
+      121 ccgcctcaga agggctgtac tgcacttccc cggggccaga cggagaaggc agacccagtg
+      181 gatctggcca ccctgatgat tgacttcaac ggggaggaga aggcctgggc catggctgtg
+      241 tgggcatttg ctgccatcaa ccgtagagac ctgtatgaga gggccaagag ggaagagccg
+      301 gagtgggata acacatatgt ttctgtggta tgccgggcag aaagccttga agaggagtgg
+      361 atgggtttgt tggggtacct ttccagaatc tctatttgta aaaagaagaa agattactgt
+      421 aagaaatacc gaaagcacgt gagaagcagg ttccagtgta tcgaagacaa gaatgcccgt
+      481 ctgggtgaga gcgtgaacct caataagcgc tacaccaggc tgcgtctcat caaggagcac
+      541 cagagccagc aagagcgaga gcatgagctt ctggccattg gtgagaccct ggctgtgacg
+      601 cgagacagcc ctgtgagctc catgagcttg gagctgctgt tcgagcccga ggaccgacat
+      661 gccgagcctg tgcacacggt ggtgctccag ggctcggcgg gcattgggaa gacgatcctg
+      721 gccaggaaga tcatgctgga ctgggcatcg gagaagctct accaggacag gtttgactac
+      781 ttgttttaca ttcactgccg ggaggtaagc ctggggacac ggaggagcct gggagacctg
+      841 atagccagct gctgccctga ccccaaccca cccatcagca agattgtgaa aaagccaggc
+      901 aggatcctat tcctcatgga tggcttcgac gagttgcagg gtgccttcga tgagcacatg
+      961 gaggcactct gcaccgactg gaggaaggtg gagaggggag acgtcctgct gagcagtctc
+     1021 atcaggaaga agttgctccc cgaggcctcc ctcctcatca ccacgaggcc tgtggcactg
+     1081 gagaagctgc agcacctgct ggaccatccg cggcatgttg aggtcctggg tttctcagaa
+     1141 gccaagaaaa aagagtactt cttcaagtat ttctcagatg agcagcaagc cagggaggct
+     1201 ttcaggttga cgcaagagaa tgaggttttg ttcaccatgt gcttcatccc cctagtctgc
+     1261 tggatcgtgt gtactgggct gaagcagcag atggacagtg gcaagggcct tcctcagacg
+     1321 tccaagacca ccactgctgt gtacaccttc ttcctctcca ctttgctgca gtcgcgggga
+     1381 ggctgcccga agcgccccat ctctgccaac ctgcggggcc tctgttcact ggctgcagat
+     1441 gggatctgga accagaagat cctgtttgag gagggggacc tcaggagcca cggcctgcag
+     1501 aaggcagatg catccgcatt cctgagggtg aacctgttcc agaaggaggt ggactgcgag
+     1561 aagttctaca gcttcatcca catgaccttc caggagttct ttgctgccat gtactacctg
+     1621 ctggaggagg agcagcatgg ggtgggggac gagtcaaggg ggcctttgga gcctcctgac
+     1681 cgggacgtga cagtccttct cgaaaactat ggcaaatttg aaaaaggcta cttgattttt
+     1741 gtcgtccgct tcctctttgg ccttataaac caggagagga catcctactt ggagaaaaaa
+     1801 ttgagttgta agatctccca gcaaatccgg ctggagctgc tgaagtggat tgaggccaaa
+     1861 gccaaggcga ggaccccaca ggcccagccc acgcagctgg agctgttcta ctgcctgtat
+     1921 gagatgcagg aggagggctt tgtgcgcagg gccatgggcc acttccccag ggttgaggtc
+     1981 agcatctcca ccaggatgga ccacgtggtc tcttccttct gcatagggaa ctgtcacaac
+     2041 atggagtcgc tgtccctgaa gctgctccat gactcaccca aggaggagga ggaggatgag
+     2101 ggggatgggg gctgccctag tgtgggccag tgcatcctcc cagaccctcc ctcagcctct
+     2161 tcttatagat caatgaactg ctgctacctt cctcccagct tctgtcaggg tctcctgtct
+     2221 gtcctgagca ccaatcagag cctcactgag ctaaacctca gtgacaacac tctgggggat
+     2281 gcagggatga aggtgttatg tgagatgctc cagaatcctg gctgtaggat tcagagactg
+     2341 cggttgagac gctgttgcct ttcccatcgg tgctgcttcg atatctcctc cgtcctcagc
+     2401 agcaaccaga cactggtgga actggacctg agcaacaatg gcctggccga ctgtggggtc
+     2461 agacttctgt gtgtggggct gaggcacatc ttttgcaact tgaggaagct ctggttggtc
+     2521 aactgctgcc tcacatctgc gtgctgtgcg caccttgcat cggtcctgag cactagccag
+     2581 tccttgacca ggctctactt gggggaaaac gccctgggag acttgggagt gggaatcctg
+     2641 tgtgaaccag caaagcatcc acaatgcagc ctgcagaaac tggggttggt gagttctggc
+     2701 ctcacgtcag attgttgttc agctctgtcc tcagtgctca gtgctaacca gaatctcacg
+     2761 cacctttacc tacgcggcaa tgctctgaga gacatggggg tcaagctgct ctgtaaggga
+     2821 ctcttgcacc ccaactgcaa gcttcagatg ttggaactag acaactgcag tctcacctca
+     2881 cactgctgct gggacctgtc caggcttctg acttccagtc agagcctgca gcaactgagc
+     2941 ctggacagca atgacctggg tgacctgggg gtcatgctct tttgcgaagt gctgaagcag
+     3001 cagggctgcc tccttagaag cctgaagttg tgtaaaatgt attttaatta tgatacaatc
+     3061 tgcgcattag aagctcttca agaagaaaag ccagagctga ccatcgtttt tgagcgtgcc
+     3121 cagccagtga tggaagcccg gcaccagacc cccctgctgt gtggccccac cacccggtgt
+     3181 agatgctga
+//
+LOCUS       Eidolon_NLRP3_novelExon        3234 bp    DNA     linear   UNA 09-MAY-2025
+DEFINITION  new mRNA transcript variant; this is estimated to constitute
+            approx. 12% of the mRNA splice variants in the E. helvum BMDMs.
+ACCESSION   urn.local...212-iyw6c6c
+VERSION     urn.local...212-iyw6c6c
+KEYWORDS    .
+SOURCE      Eidolon helvum
+  ORGANISM  Eidolon helvum.
+FEATURES             Location/Qualifiers
+     CDS             1..3234
+                     /created_by="User"
+                     /label="expected NLRP3 CDS"
+     site            join(1..307,308..523,524..628,629..2384,2385..>2558,
+                     2559..>2729,2730..>2900,2901..3074,3075..3234)
+                     /created_by="User"
+                     /modified_by="Jackson"
+                     /label
+     exon            1..307
+                     /created_by="Jackson"
+                     /label="exon 1"
+     exon            308..523
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="novel exon"
+     exon            524..628
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 2"
+     exon            629..2384
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 3"
+     intron          987..1471
+                     /created_by="Jackson"
+                     /label="putative novel intron"
+     exon            2385..2558
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 4"
+     exon            2559..2729
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 5"
+     exon            2730..2900
+                     /created_by="Jackson"
+                     /label="exon 6"
+     misc_difference 2900..2901
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="unexpected deletion coordinates"
+     exon            2901..3074
+                     /created_by="Jackson"
+                     /label="exon 8"
+     exon            3075..3234
+                     /created_by="Jackson"
+                     /label="exon 9"
+ORIGIN      
+        1 atgtcccctt cccggccagg gctagtgatc atggccagtg tccgctgcaa gctggctcgc
+       61 tacctagagg acctggagga tgtggacctg aagaaattca agatgcactt ggaggactat
+      121 ccgcctcaga agggctgtac tgcacttccc cggggccaga cggagaaggc agacccagtg
+      181 gatctggcca ccctgatgat tgacttcaac ggggaggaga aggcctgggc catggctgtg
+      241 tgggcatttg ctgccatcaa ccgtagagac ctgtatgaga gggccaagag ggaagagccg
+      301 gagtgggaac tccgccccat taagcagcac ccccactcct cagcccctgg cgaccaccac
+      361 tttctctctc catgaatttg accactcttg ggacctctca taagtggaat cttacaggat
+      421 ttgcctttta gtggtgactg gcttacttca ctcagtatca tgttcttgag cttcatccat
+      481 gctgatgcat atgacagcac tttattacct tttaggcatg atgataacac atatgtttct
+      541 gtggtatgcc gggcagaaag ccttgaagag gagtggatgg gtttgttggg gtacctttcc
+      601 agaatctcta tttgtaaaaa gaagaaagat tactgtaaga aataccgaaa gcacgtgaga
+      661 agcaggttcc agtgtatcga agacaagaat gcccgtctgg gtgagagcgt gaacctcaat
+      721 aagcgctaca ccaggctgcg tctcatcaag gagcaccaga gccagcaaga gcgagagcat
+      781 gagcttctgg ccattggtga gaccctggct gtgacgcgag acagccctgt gagctccatg
+      841 agcttggagc tgctgttcga gcccgaggac cgacatgccg agcctgtgca cacggtggtg
+      901 ctccagggct cggcgggcat tgggaagacg atcctggcca ggaagatcat gctggactgg
+      961 gcatcggaga agctctacca ggacaggttt gactacttgt tttacattca ctgccgggag
+     1021 gtaagcctgg ggacacggag gagcctggga gacctgatag ccagctgctg ccctgacccc
+     1081 aacccaccca tcagcaagat tgtgaaaaag ccaggcagga tcctattcct catggatggc
+     1141 ttcgacgagt tgcagggtgc cttcgatgag cacatggagg cactctgcac cgactggagg
+     1201 aaggtggaga ggggagacgt cctgctgagc agtctcatca ggaagaagtt gctccccgag
+     1261 gcctccctcc tcatcaccac gaggcctgtg gcactggaga agctgcagca cctgctggac
+     1321 catccgcggc atgttgaggt cctgggtttc tcagaagcca agaaaaaaga gtacttcttc
+     1381 aagtatttct cagatgagca gcaagccagg gaggctttca ggttgacgca agagaatgag
+     1441 gttttgttca ccatgtgctt catcccccta gtctgctgga tcgtgtgtac tgggctgaag
+     1501 cagcagatgg acagtggcaa gggccttcct cagacgtcca agaccaccac tgctgtgtac
+     1561 accttcttcc tctccacttt gctgcagtcg cggggaggct gcccgaagcg ccccatctct
+     1621 gccaacctgc ggggcctctg ttcactggct gcagatggga tctggaacca gaagatcctg
+     1681 tttgaggagg gggacctcag gagccacggc ctgcagaagg cagatgcatc cgcattcctg
+     1741 agggtgaacc tgttccagaa ggaggtggac tgcgagaagt tctacagctt catccacatg
+     1801 accttccagg agttctttgc tgccatgtac tacctgctgg aggaggagca gcatggggtg
+     1861 ggggacgagt caagggggcc tttggagcct cctgaccggg acgtgacagt ccttctcgaa
+     1921 aactatggca aatttgaaaa aggctacttg atttttgtcg tccgcttcct ctttggcctt
+     1981 ataaaccagg agaggacatc ctacttggag aaaaaattga gttgtaagat ctcccagcaa
+     2041 atccggctgg agctgctgaa gtggattgag gccaaagcca aggcgaggac cccacaggcc
+     2101 cagcccacgc agctggagct gttctactgc ctgtatgaga tgcaggagga gggctttgtg
+     2161 cgcagggcca tgggccactt ccccagggtt gaggtcagca tctccaccag gatggaccac
+     2221 gtggtctctt ccttctgcat agggaactgt cacaacatgg agtcgctgtc cctgaagctg
+     2281 ctccatgact cacccaagga ggaggaggag gatgaggggg atgggggctg ccctagtgtg
+     2341 ggccagtgca tcctcccaga ccctccctca gcctcttctt atagatcaat gaactgctgc
+     2401 taccttcctc ccagcttctg tcagggtctc ctgtctgtcc tgagcaccaa tcagagcctc
+     2461 actgagctaa acctcagtga caacactctg ggggatgcag ggatgaaggt gttatgtgag
+     2521 atgctccaga atcctggctg taggattcag agactgcggt tgagacgctg ttgcctttcc
+     2581 catcggtgct gcttcgatat ctcctccgtc ctcagcagca accagacact ggtggaactg
+     2641 gacctgagca acaatggcct ggccgactgt ggggtcagac ttctgtgtgt ggggctgagg
+     2701 cacatctttt gcaacttgag gaagctctgg ttggtcaact gctgcctcac atctgcgtgc
+     2761 tgtgcgcacc ttgcatcggt cctgagcact agccagtcct tgaccaggct ctacttgggg
+     2821 gaaaacgccc tgggagactt gggagtggga atcctgtgtg aaccagcaaa gcatccacaa
+     2881 tgcagcctgc agaaactggg actagacaac tgcagtctca cctcacactg ctgctgggac
+     2941 ctgtccaggc ttctgacttc cagtcagagc ctgcagcaac tgagcctgga cagcaatgac
+     3001 ctgggtgacc tgggggtcat gctcttttgc gaagtgctga agcagcaggg ctgcctcctt
+     3061 agaagcctga agttgtgtaa aatgtatttt aattatgata caatctgcgc attagaagct
+     3121 cttcaagaag aaaagccaga gctgaccatc gtttttgagc gtgcccagcc agtgatggaa
+     3181 gcccggcacc agacccccct gctgtgtggc cccaccaccc ggtgtagatg ctga
+//
+LOCUS       Eidolon_NLRP3_novelExon_novelIntron        2749 bp    DNA     linear   UNA 09-MAY-2025
+DEFINITION  new E. helvum mRNA transcript variant; this was the only variant
+            detected in the E. helvum PBMCs and was not detected in the E.
+            helvum BMDMs.
+ACCESSION   urn.local...22o-iyw94bi
+VERSION     urn.local...22o-iyw94bi
+KEYWORDS    .
+SOURCE      Eidolon helvum
+  ORGANISM  Eidolon helvum.
+FEATURES             Location/Qualifiers
+     CDS             1..2749
+                     /created_by="User"
+                     /label="expected NLRP3 CDS"
+     site            join(1..307,308..523,524..628,629..986,987..1899,
+                     1900..>2073,2074..>2244,2245..>2415,2416..2589,2590..2749)
+                     /created_by="User"
+                     /label
+     exon            1..307
+                     /created_by="Jackson"
+                     /label="exon 1"
+     exon            308..523
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="novel exon"
+     exon            524..628
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 2"
+     exon            629..986
+                     /created_by="Jackson"
+                     /label="exon 3.1"
+     exon            987..1899
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 3.2"
+     exon            1900..2073
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 4"
+     exon            2074..2244
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 5"
+     exon            2245..2415
+                     /created_by="Jackson"
+                     /label="exon 6"
+     misc_difference 2415..2416
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="unexpected deletion coordinates"
+     exon            2416..2589
+                     /created_by="Jackson"
+                     /label="exon 8"
+     exon            2590..2749
+                     /created_by="Jackson"
+                     /label="exon 9"
+ORIGIN      
+        1 atgtcccctt cccggccagg gctagtgatc atggccagtg tccgctgcaa gctggctcgc
+       61 tacctagagg acctggagga tgtggacctg aagaaattca agatgcactt ggaggactat
+      121 ccgcctcaga agggctgtac tgcacttccc cggggccaga cggagaaggc agacccagtg
+      181 gatctggcca ccctgatgat tgacttcaac ggggaggaga aggcctgggc catggctgtg
+      241 tgggcatttg ctgccatcaa ccgtagagac ctgtatgaga gggccaagag ggaagagccg
+      301 gagtgggaac tccgccccat taagcagcac ccccactcct cagcccctgg cgaccaccac
+      361 tttctctctc catgaatttg accactcttg ggacctctca taagtggaat cttacaggat
+      421 ttgcctttta gtggtgactg gcttacttca ctcagtatca tgttcttgag cttcatccat
+      481 gctgatgcat atgacagcac tttattacct tttaggcatg atgataacac atatgtttct
+      541 gtggtatgcc gggcagaaag ccttgaagag gagtggatgg gtttgttggg gtacctttcc
+      601 agaatctcta tttgtaaaaa gaagaaagat tactgtaaga aataccgaaa gcacgtgaga
+      661 agcaggttcc agtgtatcga agacaagaat gcccgtctgg gtgagagcgt gaacctcaat
+      721 aagcgctaca ccaggctgcg tctcatcaag gagcaccaga gccagcaaga gcgagagcat
+      781 gagcttctgg ccattggtga gaccctggct gtgacgcgag acagccctgt gagctccatg
+      841 agcttggagc tgctgttcga gcccgaggac cgacatgccg agcctgtgca cacggtggtg
+      901 ctccagggct cggcgggcat tgggaagacg atcctggcca ggaagatcat gctggactgg
+      961 gcatcggaga agctctacca ggacagtctg ctggatcgtg tgtactgggc tgaagcagca
+     1021 gatggacagt ggcaagggcc ttcctcagac gtccaagacc accactgctg tgtacacctt
+     1081 cttcctctcc actttgctgc agtcgcgggg aggctgcccg aagcgcccca tctctgccaa
+     1141 cctgcggggc ctctgttcac tggctgcaga tgggatctgg aaccagaaga tcctgtttga
+     1201 ggagggggac ctcaggagcc acggcctgca gaaggcagat gcatccgcat tcctgagggt
+     1261 gaacctgttc cagaaggagg tggactgcga gaagttctac agcttcatcc acatgacctt
+     1321 ccaggagttc tttgctgcca tgtactacct gctggaggag gagcagcatg gggtggggga
+     1381 cgagtcaagg gggcctttgg agcctcctga ccgggacgtg acagtccttc tcgaaaacta
+     1441 tggcaaattt gaaaaaggct acttgatttt tgtcgtccgc ttcctctttg gccttataaa
+     1501 ccaggagagg acatcctact tggagaaaaa attgagttgt aagatctccc agcaaatccg
+     1561 gctggagctg ctgaagtgga ttgaggccaa agccaaggcg aggaccccac aggcccagcc
+     1621 cacgcagctg gagctgttct actgcctgta tgagatgcag gaggagggct ttgtgcgcag
+     1681 ggccatgggc cacttcccca gggttgaggt cagcatctcc accaggatgg accacgtggt
+     1741 ctcttccttc tgcataggga actgtcacaa catggagtcg ctgtccctga agctgctcca
+     1801 tgactcaccc aaggaggagg aggaggatga gggggatggg ggctgcccta gtgtgggcca
+     1861 gtgcatcctc ccagaccctc cctcagcctc ttcttataga tcaatgaact gctgctacct
+     1921 tcctcccagc ttctgtcagg gtctcctgtc tgtcctgagc accaatcaga gcctcactga
+     1981 gctaaacctc agtgacaaca ctctggggga tgcagggatg aaggtgttat gtgagatgct
+     2041 ccagaatcct ggctgtagga ttcagagact gcggttgaga cgctgttgcc tttcccatcg
+     2101 gtgctgcttc gatatctcct ccgtcctcag cagcaaccag acactggtgg aactggacct
+     2161 gagcaacaat ggcctggccg actgtggggt cagacttctg tgtgtggggc tgaggcacat
+     2221 cttttgcaac ttgaggaagc tctggttggt caactgctgc ctcacatctg cgtgctgtgc
+     2281 gcaccttgca tcggtcctga gcactagcca gtccttgacc aggctctact tgggggaaaa
+     2341 cgccctggga gacttgggag tgggaatcct gtgtgaacca gcaaagcatc cacaatgcag
+     2401 cctgcagaaa ctgggactag acaactgcag tctcacctca cactgctgct gggacctgtc
+     2461 caggcttctg acttccagtc agagcctgca gcaactgagc ctggacagca atgacctggg
+     2521 tgacctgggg gtcatgctct tttgcgaagt gctgaagcag cagggctgcc tccttagaag
+     2581 cctgaagttg tgtaaaatgt attttaatta tgatacaatc tgcgcattag aagctcttca
+     2641 agaagaaaag ccagagctga ccatcgtttt tgagcgtgcc cagccagtga tggaagcccg
+     2701 gcaccagacc cccctgctgt gtggccccac cacccggtgt agatgctga
+//
+LOCUS       Rousettus_NLRP3_exon7_v2        3189 bp    DNA     linear   UNA 09-MAY-2025
+DEFINITION  "canonical" R. aegyptiacus CDS, updated from NCBI source
+            2025.05.09.
+ACCESSION   NW_023416310
+VERSION     NW_023416310.1
+KEYWORDS    .
+SOURCE      Rousettus aegyptiacus (Egyptian rousette)
+  ORGANISM  Rousettus aegyptiacus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yinpterochiroptera;
+            Pteropodoidea; Pteropodidae; Rousettinae; Rousettus.
+FEATURES             Location/Qualifiers
+     CDS             join(1..307,308..412,413..2168,2169..2342,2343..2513,
+                     2514..2684,2685..2855,2856..3026,3027..3189)
+                     /gene="NLRP3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="NACHT, LRR and PYD domains-containing protein 3
+                     isoform X1"
+                     /protein_id="XP_015980967.1"
+                     /db_xref="GI:1012266729"
+                     /db_xref="GeneID:107500359"
+                     /translation="MSPSQPGLVSMASVRCKLARYLEDLEEVDLKKFKMHLEDYPPQK
+                     GCTALPRGQTEKADPVDLATLMIDFNGEEKAWAMAVWAFAAINRRDLYERAKREEPEW
+                     DNSYVSVVCRAESLEEEWMGLLGYLSRISICQKKKDYCKKYRKHVRSRFQCIEDRNAR
+                     LGESVNLNKRYTRLRLIKEHQSQQEREHELLAIGESLAVTRDSPVSSMSLELLFEPED
+                     QHAEPVHTVVLQGSAGIGKTILARKIMLDWASEKLYQDRFDYLFYIHCREVSLGMRRS
+                     LGDLIVSCCPDPNPPISKIVRKSGRILFLMDGFDELQGAFDEHTEALCTDWRKVERGD
+                     VLLSSLIRKKLLPEASLLITTRPVALEKLQHLLDHPRHVEVLGFSEAKKKEYFFKYFS
+                     DEQQAREAFRLTQENEVLFTMCFIPLVCWIVCTGLKQQMDSGKGLPQTSKTTTAVYTF
+                     FLSTLLQSRGGRQKRPISANLRGLCSLAADGIWNQKILFEEGDLRSHGLQKADASAFL
+                     RVNLFQKEVDCEKFYSFIHMTFQEFFAAMYYLLEEEQHGVGDESKGPLEPPNRDVTVL
+                     LENYGKFEKGYLIFVVRFLFGLINQERTSYLEKKLSCKISQQIRLELLKWIEAKAKAR
+                     TPQIQPTQLELFYCLYEMQEEGFVRRAMGHFPRVEVSLSTRMDHVVSSFCIGNCHNME
+                     SLSLRLLHDSPKEEEEEEGDGGCPSVGQCVLPDPHSASSCRLMNCCYAPSSFCQGLLS
+                     VLSTNQSLTELNLSDNTLGDAGMKVLCEMLQNPGCRIQRLRLRRCCLSHRCCFYISST
+                     LSSNQTLVELDLSHNSLADCGVRLLCVGLRHVFCNLRKLWLVNCCLTSACCVHLASVL
+                     STSQSLTRLYLGENALGDLGVGILCESAKRPQCSLQKLGLVSSGLTSDCCSALSSVLS
+                     ANQNLTHLYLRGNALGDMGVKLLCKGLLHPNCKIQMLELDNCSLTSHCCWDLSRLLTS
+                     SQSLRQLSLDSNDLGDLGVMLFCEVLKQQGCLLRSLQLCKMYFNYDTICALEALQEEK
+                     PELTIVFERAQPVMEPRHQTPLLCGTTTRCRR"
+                     /label="NLRP3 CDS"
+     exon            1..307
+                     /created_by="Jackson"
+                     /label="exon 1"
+     exon            308..412
+                     /created_by="Jackson"
+                     /label="exon 2"
+     exon            413..2168
+                     /created_by="Jackson"
+                     /label="exon 3"
+     exon            2169..2342
+                     /created_by="Jackson"
+                     /label="exon 4"
+     exon            2343..2513
+                     /created_by="Jackson"
+                     /label="exon 5"
+     exon            2514..2684
+                     /created_by="Jackson"
+                     /label="exon 6"
+     exon            2685..2855
+                     /created_by="Jackson"
+                     /label="exon 7"
+     exon            2856..3026
+                     /created_by="Jackson"
+                     /label="exon 8"
+     exon            3027..3189
+                     /created_by="Jackson"
+                     /label="exon 9"
+ORIGIN      
+        1 atgtcccctt cccagccagg actagtgagc atggccagtg tccgctgcaa gctggctcgc
+       61 tacctggagg acctggagga agtggacctg aagaaattca agatgcactt ggaggactac
+      121 ccacctcaga agggctgcac tgcacttccg cggggccaga cggagaaggc ggacccagtg
+      181 gatctggcca ccctgatgat tgacttcaat ggggaggaga aggcctgggc catggctgtg
+      241 tgggcgtttg ctgccatcaa ccgtagagac ctgtatgaga gggccaagag ggaagagcca
+      301 gagtgggata actcatatgt ttctgtggta tgccgggcag aaagccttga agaggagtgg
+      361 atgggcttgt tggggtacct ttccagaatc tctatttgtc aaaaaaagaa agattactgt
+      421 aagaaataca ggaaacacgt gagaagcagg ttccagtgta tcgaagacag gaatgcccgt
+      481 ctgggtgaaa gcgtgaacct taataagcgc tataccaggc tgcgtctcat caaggagcac
+      541 cagagccagc aagagcgaga gcacgagctt ctggccattg gtgagtcctt ggccgtgacg
+      601 cgagacagtc ctgtgagctc catgagcttg gagctgctgt tcgagcctga ggaccaacat
+      661 gctgagcccg tgcacacggt ggtgctccag ggctcggcgg gcattgggaa gacaatcctg
+      721 gccagaaaga tcatgctgga ctgggcgtca gaaaagctct accaggacag gttcgactat
+      781 ttgttttaca tccactgccg ggaggtgagc ctcgggatgc ggaggagcct gggggacctg
+      841 attgtcagct gctgccctga ccccaatccg cccatcagca agattgtgag aaagtcaggc
+      901 aggatcctgt tcctcatgga tggcttcgac gagctgcaag gtgccttcga tgagcacaca
+      961 gaggcactct gcaccgactg gaggaaggtg gagaggggag atgtcctgct gagcagcctc
+     1021 atcaggaaga aattgctccc tgaggcctct ctcctcatca ccacgaggcc tgtggcacta
+     1081 gagaagctgc agcacctgct ggaccatccg cggcacgtgg aggtcctggg tttctcagaa
+     1141 gccaagaaga aagagtactt ctttaagtat ttctcagatg agcagcaagc cagggaggcc
+     1201 ttcaggttga cgcaggagaa tgaggtcctg ttcaccatgt gcttcatccc cctagtctgc
+     1261 tggattgtgt gtactgggct gaagcagcag atggacagtg gcaagggcct tccacagacg
+     1321 tccaagacca ccactgctgt gtacactttc ttcctctcca ctttgctgca gtcgcgggga
+     1381 ggccgccaaa agcgccccat ctctgccaac ctgcggggcc tctgctcgct ggccgcagat
+     1441 gggatctgga accagaagat cctgtttgag gagggggacc tcaggagcca cggcctgcag
+     1501 aaggcagatg catccgcatt cctgagggtg aacctgttcc agaaggaagt ggactgcgag
+     1561 aagttctaca gcttcatcca catgaccttc caggaattct tcgctgccat gtactacctg
+     1621 ctggaggagg agcagcacgg ggtgggggat gagtcaaagg ggcctttgga gcctcccaac
+     1681 cgggacgtga cagtccttct tgaaaactac ggcaaatttg aaaaaggcta cttgattttt
+     1741 gtcgtccgct tcctctttgg ccttataaac caggagagga catcctactt ggagaaaaag
+     1801 ctgagttgta agatctccca gcaaatccga ctggagctgc tgaagtggat tgaggccaaa
+     1861 gccaaggcga ggaccccaca gatccagccc acacagctgg agctgttcta ctgcctgtat
+     1921 gagatgcagg aggagggctt tgtgcgcagg gccatgggcc acttccccag ggtcgaggtc
+     1981 agcctctcta ccaggatgga ccacgtggtt tcttccttct gcatagggaa ctgtcacaac
+     2041 atggagtcgc tgtccctgag gctgctccat gactcaccca aagaggagga ggaggaggag
+     2101 ggggacgggg gctgccctag tgttggccag tgcgtcctcc cagaccctca ctcagcctct
+     2161 tcttgtagat tgatgaactg ctgctatgct ccttccagct tttgtcaggg cctcctgtct
+     2221 gtcctgagca ccaatcagag cctcactgag ctaaacctca gtgacaacac tctgggggat
+     2281 gcagggatga aggtgttatg tgagatgctc cagaatcctg gctgtaggat tcagagactg
+     2341 cggttgaggc gctgttgtct ttcccatcgg tgctgcttct acatttcctc caccctcagc
+     2401 agcaaccaga cactggtgga actggacctg agccacaaca gcctggctga ctgcggggtc
+     2461 agacttctgt gtgtggggct gaggcacgtc ttttgcaacc tgaggaagct ctggttggtc
+     2521 aactgctgcc tcacatcggc gtgctgtgtg caccttgcat cggtcctgag cactagccag
+     2581 tccctgacca ggctctactt gggggaaaat gccctgggag acttgggagt gggaatcctg
+     2641 tgtgaatcag caaagcgtcc acaatgcagc ctgcagaaac tggggttggt gagttctggc
+     2701 ctcacgtcag attgttgttc agctctgtcc tcagtgctca gtgctaacca gaatctcacg
+     2761 cacctttacc tacgcggcaa tgctctggga gacatggggg tcaagctgct ctgtaaggga
+     2821 ctcttgcacc ccaactgcaa gattcagatg ttggaactag acaactgcag tctcacctca
+     2881 cactgctgct gggacctgtc caggcttctg acctccagcc agagcctgcg gcaactgagc
+     2941 ctggacagca atgacctggg cgacctgggg gtcatgcttt tctgcgaggt gctgaagcag
+     3001 cagggctgcc tcctaagaag cctacagttg tgtaaaatgt attttaatta tgatacaatc
+     3061 tgcgcattag aagcacttca agaagaaaaa ccggagctga ccattgtttt tgagcgcgcc
+     3121 cagccagtaa tggaaccccg gcatcagacc cctctgctgt gcggcaccac caccaggtgc
+     3181 agacgctga
+//
+LOCUS       Rousettus_NLRP3_novelExon_novelIntron_v2        2749 bp    DNA     linear   UNA 09-MAY-2025
+DEFINITION  expected R. aegyptiacus CDS if analogous to E. helvum alternative
+            splicing, updated 2025.05.09.
+ACCESSION   NW_023416310
+VERSION     NW_023416310.1
+KEYWORDS    .
+SOURCE      Rousettus aegyptiacus (Egyptian rousette)
+  ORGANISM  Rousettus aegyptiacus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yinpterochiroptera;
+            Pteropodoidea; Pteropodidae; Rousettinae; Rousettus.
+FEATURES             Location/Qualifiers
+     CDS             join(1..307,308..523,524..628,629..1899,1900..2073,
+                     2074..2244,2245..2415,2416..2586,2587..2749)
+                     /gene="NLRP3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="NACHT, LRR and PYD domains-containing protein 3
+                     isoform X1"
+                     /protein_id="XP_015980967.1"
+                     /db_xref="GI:1012266729"
+                     /db_xref="GeneID:107500359"
+                     /Original_Translation="MSPSQPGLVSMASVRCKLARYLEDLEEVDLKKFKM
+                     HLEDYPPQKGCTALPRGQTEKADPVDLATLMIDFNGEEKAWAMAVWAFAAINRRDLYE
+                     RAKREEPEWDNSYVSVVCRAESLEEEWMGLLGYLSRISICQKKKDYCKKYRKHVRSRF
+                     QCIEDRNARLGESVNLNKRYTRLRLIKEHQSQQEREHELLAIGESLAVTRDSPVSSMS
+                     LELLFEPEDQHAEPVHTVVLQGSAGIGKTILARKIMLDWASEKLYQDRFDYLFYIHCR
+                     EVSLGMRRSLGDLIVSCCPDPNPPISKIVRKSGRILFLMDGFDELQGAFDEHTEALCT
+                     DWRKVERGDVLLSSLIRKKLLPEASLLITTRPVALEKLQHLLDHPRHVEVLGFSEAKK
+                     KEYFFKYFSDEQQAREAFRLTQENEVLFTMCFIPLVCWIVCTGLKQQMDSGKGLPQTS
+                     KTTTAVYTFFLSTLLQSRGGRQKRPISANLRGLCSLAADGIWNQKILFEEGDLRSHGL
+                     QKADASAFLRVNLFQKEVDCEKFYSFIHMTFQEFFAAMYYLLEEEQHGVGDESKGPLE
+                     PPNRDVTVLLENYGKFEKGYLIFVVRFLFGLINQERTSYLEKKLSCKISQQIRLELLK
+                     WIEAKAKARTPQIQPTQLELFYCLYEMQEEGFVRRAMGHFPRVEVSLSTRMDHVVSSF
+                     CIGNCHNMESLSLRLLHDSPKEEEEEEGDGGCPSVGQCVLPDPHSASSCRLMNCCYAP
+                     SSFCQGLLSVLSTNQSLTELNLSDNTLGDAGMKVLCEMLQNPGCRIQRLRLRRCCLSH
+                     RCCFYISSTLSSNQTLVELDLSHNSLADCGVRLLCVGLRHVFCNLRKLWLVNCCLTSA
+                     CCVHLASVLSTSQSLTRLYLGENALGDLGVGILCESAKRPQCSLQKLGLVSSGLTSDC
+                     CSALSSVLSANQNLTHLYLRGNALGDMGVKLLCKGLLHPNCKIQMLELDNCSLTSHCC
+                     WDLSRLLTSSQSLRQLSLDSNDLGDLGVMLFCEVLKQQGCLLRSLQLCKMYFNYDTIC
+                     ALEALQEEKPELTIVFERAQPVMEPRHQTPLLCGTTTRCRR"
+                     /modified_by="Jackson"
+                     /label="NLRP3 CDS"
+     exon            1..307
+                     /created_by="Jackson"
+                     /label="exon 1"
+     exon            308..523
+                     /created_by="Jackson"
+                     /Source_Sequence="referenceToDocument:
+                     urn:local:.:4j-izpl3qs@15.3#0:[307,523)#2B670BF2FDA4396F49
+                     960166A31271CA label: Rousettus_NLRP3_novelExon: 308->523"
+                     /label="novel exon"
+     exon            524..628
+                     /created_by="Jackson"
+                     /label="exon 2"
+     exon            629..986
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 3.1"
+     misc_feature    986^987
+                     /Original_Bases="GTTCGACTATTTGTTTTACATCCACTGCCGGGAGGTGAGCC
+                     TCGGGATGCGGAGGAGCCTGGGGGACCTGATTGTCAGCTGCTGCCCTGACCCCAATCC
+                     GCCCATCAGCAAGATTGTGAGAAAGTCAGGCAGGATCCTGTTCCTCATGGATGGCTTC
+                     GACGAGCTGCAAGGTGCCTTCGATGAGCACACAGAGGCACTCTGCACCGACTGGAGGA
+                     AGGTGGAGAGGGGAGATGTCCTGCTGAGCAGCCTCATCAGGAAGAAATTGCTCCCTGA
+                     GGCCTCTCTCCTCATCACCACGAGGCCTGTGGCACTAGAGAAGCTGCAGCACCTGCTG
+                     GACCATCCGCGGCACGTGGAGGTCCTGGGTTTCTCAGAAGCCAAGAAGAAAGAGTACT
+                     TCTTTAAGTATTTCTCAGATGAGCAGCAAGCCAGGGAGGCCTTCAGGTTGACGCAGGA
+                     GAATGAGGTCCTGTTCACCATGTGCTTCATCCCCCTAG"
+                     /label="GTTCGACTATTTGTTTTACATCCACTGCCGGGAGGTGAGCCTCGGGATGC
+                     GGAGGAGCCTGGGGGACCTGATTGTCAGCTGCTGCCCTGACCCCAATCCGCCCATCAG
+                     CAAGATTGTGAGAAAGTCAGGCAGGATCCTGTTCCTCATGGATGGCTTCGACGAGCTG
+                     CAAGGTGCCTTCGATGAGCACACAGAGGCACTCTGCACCGACTGGAGGAAGGTGGAGA
+                     GGGGAGATGTCCTGCTGAGCAGCCTCATCAGGAAGAAATTGCTCCCTGAGGCCTCTCT
+                     CCTCATCACCACGAGGCCTGTGGCACTAGAGAAGCTGCAGCACCTGCTGGACCATCCG
+                     CGGCACGTGGAGGTCCTGGGTTTCTCAGAAGCCAAGAAGAAAGAGTACTTCTTTAAGT
+                     ATTTCTCAGATGAGCAGCAAGCCAGGGAGGCCTTCAGGTTGACGCAGGAGAATGAGGT
+                     CCTGTTCACCATGTGCTTCATCCCCCTAG"
+                     /note="Geneious type: Editing History Deletion"
+     exon            987..1899
+                     /created_by="Jackson"
+                     /modified_by="Jackson"
+                     /label="exon 3.2"
+     exon            1900..2073
+                     /created_by="Jackson"
+                     /label="exon 4"
+     exon            2074..2244
+                     /created_by="Jackson"
+                     /label="exon 5"
+     exon            2245..2415
+                     /created_by="Jackson"
+                     /label="exon 6"
+     misc_feature    2415^2416
+                     /Original_Bases="GTTGGTGAGTTCTGGCCTCACGTCAGATTGTTGTTCAGCTC
+                     TGTCCTCAGTGCTCAGTGCTAACCAGAATCTCACGCACCTTTACCTACGCGGCAATGC
+                     TCTGGGAGACATGGGGGTCAAGCTGCTCTGTAAGGGACTCTTGCACCCCAACTGCAAG
+                     ATTCAGATGTTGGA"
+                     /label="GTTGGTGAGTTCTGGCCTCACGTCAGATTGTTGTTCAGCTCTGTCCTCAG
+                     TGCTCAGTGCTAACCAGAATCTCACGCACCTTTACCTACGCGGCAATGCTCTGGGAGA
+                     CATGGGGGTCAAGCTGCTCTGTAAGGGACTCTTGCACCCCAACTGCAAGATTCAGATG
+                     TTGGA"
+                     /note="Geneious type: Editing History Deletion"
+     exon            2416..2586
+                     /created_by="Jackson"
+                     /label="exon 8"
+     exon            2587..2749
+                     /created_by="Jackson"
+                     /label="exon 9"
+ORIGIN      
+        1 atgtcccctt cccagccagg actagtgagc atggccagtg tccgctgcaa gctggctcgc
+       61 tacctggagg acctggagga agtggacctg aagaaattca agatgcactt ggaggactac
+      121 ccacctcaga agggctgcac tgcacttccg cggggccaga cggagaaggc ggacccagtg
+      181 gatctggcca ccctgatgat tgacttcaat ggggaggaga aggcctgggc catggctgtg
+      241 tgggcgtttg ctgccatcaa ccgtagagac ctgtatgaga gggccaagag ggaagagcca
+      301 gagtgggaac tccaccccat taagcagcac ccctgctcct cagcccccgt tgaccaccac
+      361 tttctctctc catgtgtttg accactctta ggacctctca taagtggaat cttacaggat
+      421 ttgtctttta gtggtgaccg acttatttca ctcagtatca tgttcttgag cttcatccat
+      481 gctgttgcat atgacagcac tttattacct tttaggcatg atgataactc atatgtttct
+      541 gtggtatgcc gggcagaaag ccttgaagag gagtggatgg gcttgttggg gtacctttcc
+      601 agaatctcta tttgtcaaaa aaagaaagat tactgtaaga aatacaggaa acacgtgaga
+      661 agcaggttcc agtgtatcga agacaggaat gcccgtctgg gtgaaagcgt gaaccttaat
+      721 aagcgctata ccaggctgcg tctcatcaag gagcaccaga gccagcaaga gcgagagcac
+      781 gagcttctgg ccattggtga gtccttggcc gtgacgcgag acagtcctgt gagctccatg
+      841 agcttggagc tgctgttcga gcctgaggac caacatgctg agcccgtgca cacggtggtg
+      901 ctccagggct cggcgggcat tgggaagaca atcctggcca gaaagatcat gctggactgg
+      961 gcgtcagaaa agctctacca ggacagtctg ctggattgtg tgtactgggc tgaagcagca
+     1021 gatggacagt ggcaagggcc ttccacagac gtccaagacc accactgctg tgtacacttt
+     1081 cttcctctcc actttgctgc agtcgcgggg aggccgccaa aagcgcccca tctctgccaa
+     1141 cctgcggggc ctctgctcgc tggccgcaga tgggatctgg aaccagaaga tcctgtttga
+     1201 ggagggggac ctcaggagcc acggcctgca gaaggcagat gcatccgcat tcctgagggt
+     1261 gaacctgttc cagaaggaag tggactgcga gaagttctac agcttcatcc acatgacctt
+     1321 ccaggaattc ttcgctgcca tgtactacct gctggaggag gagcagcacg gggtggggga
+     1381 tgagtcaaag gggcctttgg agcctcccaa ccgggacgtg acagtccttc ttgaaaacta
+     1441 cggcaaattt gaaaaaggct acttgatttt tgtcgtccgc ttcctctttg gccttataaa
+     1501 ccaggagagg acatcctact tggagaaaaa gctgagttgt aagatctccc agcaaatccg
+     1561 actggagctg ctgaagtgga ttgaggccaa agccaaggcg aggaccccac agatccagcc
+     1621 cacacagctg gagctgttct actgcctgta tgagatgcag gaggagggct ttgtgcgcag
+     1681 ggccatgggc cacttcccca gggtcgaggt cagcctctct accaggatgg accacgtggt
+     1741 ttcttccttc tgcataggga actgtcacaa catggagtcg ctgtccctga ggctgctcca
+     1801 tgactcaccc aaagaggagg aggaggagga gggggacggg ggctgcccta gtgttggcca
+     1861 gtgcgtcctc ccagaccctc actcagcctc ttcttgtaga ttgatgaact gctgctatgc
+     1921 tccttccagc ttttgtcagg gcctcctgtc tgtcctgagc accaatcaga gcctcactga
+     1981 gctaaacctc agtgacaaca ctctggggga tgcagggatg aaggtgttat gtgagatgct
+     2041 ccagaatcct ggctgtagga ttcagagact gcggttgagg cgctgttgtc tttcccatcg
+     2101 gtgctgcttc tacatttcct ccaccctcag cagcaaccag acactggtgg aactggacct
+     2161 gagccacaac agcctggctg actgcggggt cagacttctg tgtgtggggc tgaggcacgt
+     2221 cttttgcaac ctgaggaagc tctggttggt caactgctgc ctcacatcgg cgtgctgtgt
+     2281 gcaccttgca tcggtcctga gcactagcca gtccctgacc aggctctact tgggggaaaa
+     2341 tgccctggga gacttgggag tgggaatcct gtgtgaatca gcaaagcgtc cacaatgcag
+     2401 cctgcagaaa ctgggactag acaactgcag tctcacctca cactgctgct gggacctgtc
+     2461 caggcttctg acctccagcc agagcctgcg gcaactgagc ctggacagca atgacctggg
+     2521 cgacctgggg gtcatgcttt tctgcgaggt gctgaagcag cagggctgcc tcctaagaag
+     2581 cctacagttg tgtaaaatgt attttaatta tgatacaatc tgcgcattag aagcacttca
+     2641 agaagaaaaa ccggagctga ccattgtttt tgagcgcgcc cagccagtaa tggaaccccg
+     2701 gcatcagacc cctctgctgt gcggcaccac caccaggtgc agacgctga
+//
+LOCUS       Rousettus_NLRP3_novelExon_v2        3234 bp    DNA     linear   UNA 09-MAY-2025
+DEFINITION  expected R. aegyptiacus CDS if analogous to E. helvum alternative
+            splicing, updated 2025.05.09.
+ACCESSION   NW_023416310
+VERSION     NW_023416310.1
+KEYWORDS    .
+SOURCE      Rousettus aegyptiacus (Egyptian rousette)
+  ORGANISM  Rousettus aegyptiacus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yinpterochiroptera;
+            Pteropodoidea; Pteropodidae; Rousettinae; Rousettus.
+FEATURES             Location/Qualifiers
+     CDS             join(1..307,308..523,524..628,629..2384,2385..2558,
+                     2559..2729,2730..2900,2901..3071,3072..3234)
+                     /gene="NLRP3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="NACHT, LRR and PYD domains-containing protein 3
+                     isoform X1"
+                     /protein_id="XP_015980967.1"
+                     /db_xref="GI:1012266729"
+                     /db_xref="GeneID:107500359"
+                     /Original_Translation="MSPSQPGLVSMASVRCKLARYLEDLEEVDLKKFKM
+                     HLEDYPPQKGCTALPRGQTEKADPVDLATLMIDFNGEEKAWAMAVWAFAAINRRDLYE
+                     RAKREEPEWDNSYVSVVCRAESLEEEWMGLLGYLSRISICQKKKDYCKKYRKHVRSRF
+                     QCIEDRNARLGESVNLNKRYTRLRLIKEHQSQQEREHELLAIGESLAVTRDSPVSSMS
+                     LELLFEPEDQHAEPVHTVVLQGSAGIGKTILARKIMLDWASEKLYQDRFDYLFYIHCR
+                     EVSLGMRRSLGDLIVSCCPDPNPPISKIVRKSGRILFLMDGFDELQGAFDEHTEALCT
+                     DWRKVERGDVLLSSLIRKKLLPEASLLITTRPVALEKLQHLLDHPRHVEVLGFSEAKK
+                     KEYFFKYFSDEQQAREAFRLTQENEVLFTMCFIPLVCWIVCTGLKQQMDSGKGLPQTS
+                     KTTTAVYTFFLSTLLQSRGGRQKRPISANLRGLCSLAADGIWNQKILFEEGDLRSHGL
+                     QKADASAFLRVNLFQKEVDCEKFYSFIHMTFQEFFAAMYYLLEEEQHGVGDESKGPLE
+                     PPNRDVTVLLENYGKFEKGYLIFVVRFLFGLINQERTSYLEKKLSCKISQQIRLELLK
+                     WIEAKAKARTPQIQPTQLELFYCLYEMQEEGFVRRAMGHFPRVEVSLSTRMDHVVSSF
+                     CIGNCHNMESLSLRLLHDSPKEEEEEEGDGGCPSVGQCVLPDPHSASSCRLMNCCYAP
+                     SSFCQGLLSVLSTNQSLTELNLSDNTLGDAGMKVLCEMLQNPGCRIQRLRLRRCCLSH
+                     RCCFYISSTLSSNQTLVELDLSHNSLADCGVRLLCVGLRHVFCNLRKLWLVNCCLTSA
+                     CCVHLASVLSTSQSLTRLYLGENALGDLGVGILCESAKRPQCSLQKLGLVSSGLTSDC
+                     CSALSSVLSANQNLTHLYLRGNALGDMGVKLLCKGLLHPNCKIQMLELDNCSLTSHCC
+                     WDLSRLLTSSQSLRQLSLDSNDLGDLGVMLFCEVLKQQGCLLRSLQLCKMYFNYDTIC
+                     ALEALQEEKPELTIVFERAQPVMEPRHQTPLLCGTTTRCRR"
+                     /modified_by="Jackson"
+                     /label="NLRP3 CDS"
+     exon            1..307
+                     /created_by="Jackson"
+                     /label="exon 1"
+     exon            308..523
+                     /created_by="Jackson"
+                     /Source_Sequence="referenceToDocument:
+                     urn:local:.:4j-izpl3qs@15.3#0:[307,523)#2B670BF2FDA4396F49
+                     960166A31271CA label: Rousettus_NLRP3_novelExon: 308->523"
+                     /label="novel exon"
+     exon            524..628
+                     /created_by="Jackson"
+                     /label="exon 2"
+     exon            629..2384
+                     /created_by="Jackson"
+                     /label="exon 3"
+     intron          987..1471
+                     /created_by="Jackson"
+                     /label="putative novel intron"
+     exon            2385..2558
+                     /created_by="Jackson"
+                     /label="exon 4"
+     exon            2559..2729
+                     /created_by="Jackson"
+                     /label="exon 5"
+     exon            2730..2900
+                     /created_by="Jackson"
+                     /label="exon 6"
+     misc_feature    2900^2901
+                     /Original_Bases="GTTGGTGAGTTCTGGCCTCACGTCAGATTGTTGTTCAGCTC
+                     TGTCCTCAGTGCTCAGTGCTAACCAGAATCTCACGCACCTTTACCTACGCGGCAATGC
+                     TCTGGGAGACATGGGGGTCAAGCTGCTCTGTAAGGGACTCTTGCACCCCAACTGCAAG
+                     ATTCAGATGTTGGA"
+                     /label="GTTGGTGAGTTCTGGCCTCACGTCAGATTGTTGTTCAGCTCTGTCCTCAG
+                     TGCTCAGTGCTAACCAGAATCTCACGCACCTTTACCTACGCGGCAATGCTCTGGGAGA
+                     CATGGGGGTCAAGCTGCTCTGTAAGGGACTCTTGCACCCCAACTGCAAGATTCAGATG
+                     TTGGA"
+                     /note="Geneious type: Editing History Deletion"
+     exon            2901..3071
+                     /created_by="Jackson"
+                     /label="exon 8"
+     exon            3072..3234
+                     /created_by="Jackson"
+                     /label="exon 9"
+ORIGIN      
+        1 atgtcccctt cccagccagg actagtgagc atggccagtg tccgctgcaa gctggctcgc
+       61 tacctggagg acctggagga agtggacctg aagaaattca agatgcactt ggaggactac
+      121 ccacctcaga agggctgcac tgcacttccg cggggccaga cggagaaggc ggacccagtg
+      181 gatctggcca ccctgatgat tgacttcaat ggggaggaga aggcctgggc catggctgtg
+      241 tgggcgtttg ctgccatcaa ccgtagagac ctgtatgaga gggccaagag ggaagagcca
+      301 gagtgggaac tccaccccat taagcagcac ccctgctcct cagcccccgt tgaccaccac
+      361 tttctctctc catgtgtttg accactctta ggacctctca taagtggaat cttacaggat
+      421 ttgtctttta gtggtgaccg acttatttca ctcagtatca tgttcttgag cttcatccat
+      481 gctgttgcat atgacagcac tttattacct tttaggcatg atgataactc atatgtttct
+      541 gtggtatgcc gggcagaaag ccttgaagag gagtggatgg gcttgttggg gtacctttcc
+      601 agaatctcta tttgtcaaaa aaagaaagat tactgtaaga aatacaggaa acacgtgaga
+      661 agcaggttcc agtgtatcga agacaggaat gcccgtctgg gtgaaagcgt gaaccttaat
+      721 aagcgctata ccaggctgcg tctcatcaag gagcaccaga gccagcaaga gcgagagcac
+      781 gagcttctgg ccattggtga gtccttggcc gtgacgcgag acagtcctgt gagctccatg
+      841 agcttggagc tgctgttcga gcctgaggac caacatgctg agcccgtgca cacggtggtg
+      901 ctccagggct cggcgggcat tgggaagaca atcctggcca gaaagatcat gctggactgg
+      961 gcgtcagaaa agctctacca ggacaggttc gactatttgt tttacatcca ctgccgggag
+     1021 gtgagcctcg ggatgcggag gagcctgggg gacctgattg tcagctgctg ccctgacccc
+     1081 aatccgccca tcagcaagat tgtgagaaag tcaggcagga tcctgttcct catggatggc
+     1141 ttcgacgagc tgcaaggtgc cttcgatgag cacacagagg cactctgcac cgactggagg
+     1201 aaggtggaga ggggagatgt cctgctgagc agcctcatca ggaagaaatt gctccctgag
+     1261 gcctctctcc tcatcaccac gaggcctgtg gcactagaga agctgcagca cctgctggac
+     1321 catccgcggc acgtggaggt cctgggtttc tcagaagcca agaagaaaga gtacttcttt
+     1381 aagtatttct cagatgagca gcaagccagg gaggccttca ggttgacgca ggagaatgag
+     1441 gtcctgttca ccatgtgctt catcccccta gtctgctgga ttgtgtgtac tgggctgaag
+     1501 cagcagatgg acagtggcaa gggccttcca cagacgtcca agaccaccac tgctgtgtac
+     1561 actttcttcc tctccacttt gctgcagtcg cggggaggcc gccaaaagcg ccccatctct
+     1621 gccaacctgc ggggcctctg ctcgctggcc gcagatggga tctggaacca gaagatcctg
+     1681 tttgaggagg gggacctcag gagccacggc ctgcagaagg cagatgcatc cgcattcctg
+     1741 agggtgaacc tgttccagaa ggaagtggac tgcgagaagt tctacagctt catccacatg
+     1801 accttccagg aattcttcgc tgccatgtac tacctgctgg aggaggagca gcacggggtg
+     1861 ggggatgagt caaaggggcc tttggagcct cccaaccggg acgtgacagt ccttcttgaa
+     1921 aactacggca aatttgaaaa aggctacttg atttttgtcg tccgcttcct ctttggcctt
+     1981 ataaaccagg agaggacatc ctacttggag aaaaagctga gttgtaagat ctcccagcaa
+     2041 atccgactgg agctgctgaa gtggattgag gccaaagcca aggcgaggac cccacagatc
+     2101 cagcccacac agctggagct gttctactgc ctgtatgaga tgcaggagga gggctttgtg
+     2161 cgcagggcca tgggccactt ccccagggtc gaggtcagcc tctctaccag gatggaccac
+     2221 gtggtttctt ccttctgcat agggaactgt cacaacatgg agtcgctgtc cctgaggctg
+     2281 ctccatgact cacccaaaga ggaggaggag gaggaggggg acgggggctg ccctagtgtt
+     2341 ggccagtgcg tcctcccaga ccctcactca gcctcttctt gtagattgat gaactgctgc
+     2401 tatgctcctt ccagcttttg tcagggcctc ctgtctgtcc tgagcaccaa tcagagcctc
+     2461 actgagctaa acctcagtga caacactctg ggggatgcag ggatgaaggt gttatgtgag
+     2521 atgctccaga atcctggctg taggattcag agactgcggt tgaggcgctg ttgtctttcc
+     2581 catcggtgct gcttctacat ttcctccacc ctcagcagca accagacact ggtggaactg
+     2641 gacctgagcc acaacagcct ggctgactgc ggggtcagac ttctgtgtgt ggggctgagg
+     2701 cacgtctttt gcaacctgag gaagctctgg ttggtcaact gctgcctcac atcggcgtgc
+     2761 tgtgtgcacc ttgcatcggt cctgagcact agccagtccc tgaccaggct ctacttgggg
+     2821 gaaaatgccc tgggagactt gggagtggga atcctgtgtg aatcagcaaa gcgtccacaa
+     2881 tgcagcctgc agaaactggg actagacaac tgcagtctca cctcacactg ctgctgggac
+     2941 ctgtccaggc ttctgacctc cagccagagc ctgcggcaac tgagcctgga cagcaatgac
+     3001 ctgggcgacc tgggggtcat gcttttctgc gaggtgctga agcagcaggg ctgcctccta
+     3061 agaagcctac agttgtgtaa aatgtatttt aattatgata caatctgcgc attagaagca
+     3121 cttcaagaag aaaaaccgga gctgaccatt gtttttgagc gcgcccagcc agtaatggaa
+     3181 ccccggcatc agacccctct gctgtgcggc accaccacca ggtgcagacg ctga
+//
+LOCUS       Rousettus_NLRP3_v2        3018 bp    DNA     linear   UNA 09-MAY-2025
+DEFINITION  "canonical" R. aegyptiacus CDS, updated from NCBI source
+            2025.05.09.
+ACCESSION   NW_023416310
+VERSION     NW_023416310.1
+KEYWORDS    .
+SOURCE      Rousettus aegyptiacus (Egyptian rousette)
+  ORGANISM  Rousettus aegyptiacus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yinpterochiroptera;
+            Pteropodoidea; Pteropodidae; Rousettinae; Rousettus.
+FEATURES             Location/Qualifiers
+     CDS             join(1..307,308..412,413..2168,2169..2342,2343..2513,
+                     2514..2684,2685..2855,2856..3018)
+                     /gene="NLRP3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="NACHT, LRR and PYD domains-containing protein 3
+                     isoform X1"
+                     /protein_id="XP_015980967.1"
+                     /db_xref="GI:1012266729"
+                     /db_xref="GeneID:107500359"
+                     /Original_Translation="MSPSQPGLVSMASVRCKLARYLEDLEEVDLKKFKM
+                     HLEDYPPQKGCTALPRGQTEKADPVDLATLMIDFNGEEKAWAMAVWAFAAINRRDLYE
+                     RAKREEPEWDNSYVSVVCRAESLEEEWMGLLGYLSRISICQKKKDYCKKYRKHVRSRF
+                     QCIEDRNARLGESVNLNKRYTRLRLIKEHQSQQEREHELLAIGESLAVTRDSPVSSMS
+                     LELLFEPEDQHAEPVHTVVLQGSAGIGKTILARKIMLDWASEKLYQDRFDYLFYIHCR
+                     EVSLGMRRSLGDLIVSCCPDPNPPISKIVRKSGRILFLMDGFDELQGAFDEHTEALCT
+                     DWRKVERGDVLLSSLIRKKLLPEASLLITTRPVALEKLQHLLDHPRHVEVLGFSEAKK
+                     KEYFFKYFSDEQQAREAFRLTQENEVLFTMCFIPLVCWIVCTGLKQQMDSGKGLPQTS
+                     KTTTAVYTFFLSTLLQSRGGRQKRPISANLRGLCSLAADGIWNQKILFEEGDLRSHGL
+                     QKADASAFLRVNLFQKEVDCEKFYSFIHMTFQEFFAAMYYLLEEEQHGVGDESKGPLE
+                     PPNRDVTVLLENYGKFEKGYLIFVVRFLFGLINQERTSYLEKKLSCKISQQIRLELLK
+                     WIEAKAKARTPQIQPTQLELFYCLYEMQEEGFVRRAMGHFPRVEVSLSTRMDHVVSSF
+                     CIGNCHNMESLSLRLLHDSPKEEEEEEGDGGCPSVGQCVLPDPHSASSCRLMNCCYAP
+                     SSFCQGLLSVLSTNQSLTELNLSDNTLGDAGMKVLCEMLQNPGCRIQRLRLRRCCLSH
+                     RCCFYISSTLSSNQTLVELDLSHNSLADCGVRLLCVGLRHVFCNLRKLWLVNCCLTSA
+                     CCVHLASVLSTSQSLTRLYLGENALGDLGVGILCESAKRPQCSLQKLGLVSSGLTSDC
+                     CSALSSVLSANQNLTHLYLRGNALGDMGVKLLCKGLLHPNCKIQMLELDNCSLTSHCC
+                     WDLSRLLTSSQSLRQLSLDSNDLGDLGVMLFCEVLKQQGCLLRSLQLCKMYFNYDTIC
+                     ALEALQEEKPELTIVFERAQPVMEPRHQTPLLCGTTTRCRR"
+                     /label="NLRP3 CDS"
+     exon            1..307
+                     /created_by="Jackson"
+                     /label="exon 1"
+     exon            308..412
+                     /created_by="Jackson"
+                     /label="exon 2"
+     exon            413..2168
+                     /created_by="Jackson"
+                     /label="exon 3"
+     exon            2169..2342
+                     /created_by="Jackson"
+                     /label="exon 4"
+     exon            2343..2513
+                     /created_by="Jackson"
+                     /label="exon 5"
+     exon            2514..2684
+                     /created_by="Jackson"
+                     /label="exon 6"
+     exon            2685..2855
+                     /created_by="Jackson"
+                     /label="exon 8"
+     misc_feature    2684^2685
+                     /Original_Bases="GTTGGTGAGTTCTGGCCTCACGTCAGATTGTTGTTCAGCTC
+                     TGTCCTCAGTGCTCAGTGCTAACCAGAATCTCACGCACCTTTACCTACGCGGCAATGC
+                     TCTGGGAGACATGGGGGTCAAGCTGCTCTGTAAGGGACTCTTGCACCCCAACTGCAAG
+                     ATTCAGATGTTGGA"
+                     /label="GTTGGTGAGTTCTGGCCTCACGTCAGATTGTTGTTCAGCTCTGTCCTCAG
+                     TGCTCAGTGCTAACCAGAATCTCACGCACCTTTACCTACGCGGCAATGCTCTGGGAGA
+                     CATGGGGGTCAAGCTGCTCTGTAAGGGACTCTTGCACCCCAACTGCAAGATTCAGATG
+                     TTGGA"
+                     /note="Geneious type: Editing History Deletion"
+     exon            2856..3018
+                     /created_by="Jackson"
+                     /label="exon 9"
+ORIGIN      
+        1 atgtcccctt cccagccagg actagtgagc atggccagtg tccgctgcaa gctggctcgc
+       61 tacctggagg acctggagga agtggacctg aagaaattca agatgcactt ggaggactac
+      121 ccacctcaga agggctgcac tgcacttccg cggggccaga cggagaaggc ggacccagtg
+      181 gatctggcca ccctgatgat tgacttcaat ggggaggaga aggcctgggc catggctgtg
+      241 tgggcgtttg ctgccatcaa ccgtagagac ctgtatgaga gggccaagag ggaagagcca
+      301 gagtgggata actcatatgt ttctgtggta tgccgggcag aaagccttga agaggagtgg
+      361 atgggcttgt tggggtacct ttccagaatc tctatttgtc aaaaaaagaa agattactgt
+      421 aagaaataca ggaaacacgt gagaagcagg ttccagtgta tcgaagacag gaatgcccgt
+      481 ctgggtgaaa gcgtgaacct taataagcgc tataccaggc tgcgtctcat caaggagcac
+      541 cagagccagc aagagcgaga gcacgagctt ctggccattg gtgagtcctt ggccgtgacg
+      601 cgagacagtc ctgtgagctc catgagcttg gagctgctgt tcgagcctga ggaccaacat
+      661 gctgagcccg tgcacacggt ggtgctccag ggctcggcgg gcattgggaa gacaatcctg
+      721 gccagaaaga tcatgctgga ctgggcgtca gaaaagctct accaggacag gttcgactat
+      781 ttgttttaca tccactgccg ggaggtgagc ctcgggatgc ggaggagcct gggggacctg
+      841 attgtcagct gctgccctga ccccaatccg cccatcagca agattgtgag aaagtcaggc
+      901 aggatcctgt tcctcatgga tggcttcgac gagctgcaag gtgccttcga tgagcacaca
+      961 gaggcactct gcaccgactg gaggaaggtg gagaggggag atgtcctgct gagcagcctc
+     1021 atcaggaaga aattgctccc tgaggcctct ctcctcatca ccacgaggcc tgtggcacta
+     1081 gagaagctgc agcacctgct ggaccatccg cggcacgtgg aggtcctggg tttctcagaa
+     1141 gccaagaaga aagagtactt ctttaagtat ttctcagatg agcagcaagc cagggaggcc
+     1201 ttcaggttga cgcaggagaa tgaggtcctg ttcaccatgt gcttcatccc cctagtctgc
+     1261 tggattgtgt gtactgggct gaagcagcag atggacagtg gcaagggcct tccacagacg
+     1321 tccaagacca ccactgctgt gtacactttc ttcctctcca ctttgctgca gtcgcgggga
+     1381 ggccgccaaa agcgccccat ctctgccaac ctgcggggcc tctgctcgct ggccgcagat
+     1441 gggatctgga accagaagat cctgtttgag gagggggacc tcaggagcca cggcctgcag
+     1501 aaggcagatg catccgcatt cctgagggtg aacctgttcc agaaggaagt ggactgcgag
+     1561 aagttctaca gcttcatcca catgaccttc caggaattct tcgctgccat gtactacctg
+     1621 ctggaggagg agcagcacgg ggtgggggat gagtcaaagg ggcctttgga gcctcccaac
+     1681 cgggacgtga cagtccttct tgaaaactac ggcaaatttg aaaaaggcta cttgattttt
+     1741 gtcgtccgct tcctctttgg ccttataaac caggagagga catcctactt ggagaaaaag
+     1801 ctgagttgta agatctccca gcaaatccga ctggagctgc tgaagtggat tgaggccaaa
+     1861 gccaaggcga ggaccccaca gatccagccc acacagctgg agctgttcta ctgcctgtat
+     1921 gagatgcagg aggagggctt tgtgcgcagg gccatgggcc acttccccag ggtcgaggtc
+     1981 agcctctcta ccaggatgga ccacgtggtt tcttccttct gcatagggaa ctgtcacaac
+     2041 atggagtcgc tgtccctgag gctgctccat gactcaccca aagaggagga ggaggaggag
+     2101 ggggacgggg gctgccctag tgttggccag tgcgtcctcc cagaccctca ctcagcctct
+     2161 tcttgtagat tgatgaactg ctgctatgct ccttccagct tttgtcaggg cctcctgtct
+     2221 gtcctgagca ccaatcagag cctcactgag ctaaacctca gtgacaacac tctgggggat
+     2281 gcagggatga aggtgttatg tgagatgctc cagaatcctg gctgtaggat tcagagactg
+     2341 cggttgaggc gctgttgtct ttcccatcgg tgctgcttct acatttcctc caccctcagc
+     2401 agcaaccaga cactggtgga actggacctg agccacaaca gcctggctga ctgcggggtc
+     2461 agacttctgt gtgtggggct gaggcacgtc ttttgcaacc tgaggaagct ctggttggtc
+     2521 aactgctgcc tcacatcggc gtgctgtgtg caccttgcat cggtcctgag cactagccag
+     2581 tccctgacca ggctctactt gggggaaaat gccctgggag acttgggagt gggaatcctg
+     2641 tgtgaatcag caaagcgtcc acaatgcagc ctgcagaaac tgggactaga caactgcagt
+     2701 ctcacctcac actgctgctg ggacctgtcc aggcttctga cctccagcca gagcctgcgg
+     2761 caactgagcc tggacagcaa tgacctgggc gacctggggg tcatgctttt ctgcgaggtg
+     2821 ctgaagcagc agggctgcct cctaagaagc ctacagttgt gtaaaatgta ttttaattat
+     2881 gatacaatct gcgcattaga agcacttcaa gaagaaaaac cggagctgac cattgttttt
+     2941 gagcgcgccc agccagtaat ggaaccccgg catcagaccc ctctgctgtg cggcaccacc
+     3001 accaggtgca gacgctga
+//
